@@ -8,6 +8,9 @@ public class Task23 {
 			}
 			System.out.println();
 			level++;
+			System.out.println();
+			
+			//za test
 		}
 	}
 }
