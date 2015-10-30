@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Task22 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		int input = scanner.nextInt();
+
+		if ((input < 1) && (input > 999)) {
+			System.out.println("Wrong input");
+			input = scanner.nextInt();
+		}
+
+		int count = 0;
+		int nexNum = input + 1;
+
+		while (count < 10) {
+			if ((nexNum % 2 == 0) || (nexNum % 3 == 0) || (nexNum % 5 == 0)) {
+				
+				count++;
+				System.out.println(count + ":" + nexNum);
+				nexNum++;
+			}
+		}
+	}
+}

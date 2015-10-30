@@ -1,0 +1,13 @@
+public class Task23 {
+	public static void main(String[] args) {
+		
+		int level = 1;
+		while (level < 9){
+			for (int i = level; i <= 9; i++) {
+				System.out.println(level + "*" + i);
+				level++;
+			}
+		}
+	}
+
+}

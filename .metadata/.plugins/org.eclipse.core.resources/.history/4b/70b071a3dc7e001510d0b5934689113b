@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Task24 {
+	public static void main(String[] args) {
+		@SuppressWarnings("unused")
+		Scanner scanner = new Scanner(System.in);
+		
+		int input = scanner.nextInt();
+		int reverseNum = 0;
+		
+		do {
+			int lastDigit = input % 10;
+			reverseNum += lastDigit;
+			input /= 10;
+		} while (input > 0);
+	}
+}
+
+

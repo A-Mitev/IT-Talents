@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Task24 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int input = scanner.nextInt();
+		System.out.println(isPalindrome(input));
+		
+	}
+		
+		static boolean isPalindrome(int input) {
+		    if (input < 0)
+		        return false;
+		    int div = 1;
+		    while (input / div >= 10) {
+		        div *= 10;
+		    }
+		    while (input != 0) {
+		        int l = input / div;
+		        int r = input % 10;
+		        if (l != r)
+		            return false;
+		        input = (input % div) / 10;
+		        div /= 100;
+		    }
+		    return true;
+		}
+		
+	}
+
+

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Task14 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int input = 0;
+		
+		if ((input > 9) && (input < 201)){
+			input = scanner.nextInt();
+		} else {
+			System.out.println("Please enter number between 10 and 200!");
+			scanner.nextInt();
+		}
+		
+	}
+
+}

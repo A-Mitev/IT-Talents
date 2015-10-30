@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Class_task {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		int day = scanner.nextInt();
+		
+		switch (day){
+		case 1: System.out.println("Monday"); 
+		break;
+		case 2: System.out.println("Vtornik");
+		break;
+		case 3: System.out.println("Monday");
+		break;
+		default: System.out.println("Monday");
+		break;
+		}
+	}
+}

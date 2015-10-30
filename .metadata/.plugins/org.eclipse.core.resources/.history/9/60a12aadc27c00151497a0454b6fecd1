@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Task10 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int num = scanner.nextInt();
+		int devider = 2;
+		int maxDevider = (int)Math.sqrt(num);
+		boolean prime = true;
+		
+		while (prime && (devider <= maxDevider)){
+			if(num % devider == 0){
+				prime = false;
+			}
+			devider ++;
+		}
+		System.out.println("Is num Prime ?" + prime);
+	}
+
+}

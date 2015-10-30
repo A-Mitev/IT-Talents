@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		int a;
+		int b;
+		int c;
+		int d;
+
+		while ((scanner.nextInt() > 0) && (scanner.nextInt() < 9)) {
+			
+		 a = scanner.nextInt();
+		 b = scanner.nextInt();
+		 c = scanner.nextInt();
+		 d = scanner.nextInt();
+		 
+		}
+
+		System.out.println(a + " " + b + " " + c + " " + d);
+	}
+	}
+
+
