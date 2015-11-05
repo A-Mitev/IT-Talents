@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Task13 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		int number = 99;
+		int binary = 0;
+		while (number > 0) {
+			binary += number % 2;
+			number /= 2;
+			if (number > 0 ) {
+				binary *= 10;
+			}
+		}
+		
+		int[] array = new int [binary];
+		
+		System.out.println(binary);
+	}
+
+}
