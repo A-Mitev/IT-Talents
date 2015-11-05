@@ -1,0 +1,25 @@
+public class Task14 {
+	public static void main(String[] args) {
+		
+		double[] array = {7.1, 8.5, 0.2, 3.7, 0.99, 
+				               1.4,-3.5, -110, 212,341,1.2 };
+		
+		int count = array.length;
+		double[] newArray = new double [count];
+		
+		for (int i = 0; i < array.length; i++) {
+			if ((array[i] > -3.00) && (array[i] < 3.00)){
+				count--;
+				newArray[i] = array[i];
+				
+			}
+		}
+		
+		for (int i = 0; i < newArray.length; i++) {
+			System.out.print(newArray[i]+ " ");
+		}
+		
+		
+	}
+
+}
