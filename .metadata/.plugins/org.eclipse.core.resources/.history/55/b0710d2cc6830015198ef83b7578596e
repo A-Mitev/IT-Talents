@@ -24,8 +24,7 @@ public class Task18 {
 			}
 
 		}
-
-		System.out.println();
+		
 		for (int i = 0; i < thirdArray.length; i++) {
 			if (i == thirdArray.length - 1) {
 				System.out.print(secondArray[i]);
@@ -35,8 +34,7 @@ public class Task18 {
 			}
 
 		}
-
-		System.out.println();
+		
 		for (int i = 0; i < thirdArray.length; i++) {
 			if (i == thirdArray.length - 1) {
 				System.out.print(thirdArray[i]);
