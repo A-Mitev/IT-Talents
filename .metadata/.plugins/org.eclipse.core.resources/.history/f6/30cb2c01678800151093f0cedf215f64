@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Class_Examples {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String a = "test";
+		String b = "test";
+		
+		String input = scanner.nextLine();
+		String inputNext = scanner.next();
+		
+		System.out.println(input);
+		System.err.println(inputNext);
+		
+		boolean equal = (a == b);
+		System.out.println(equal);
+	}
+
+}

@@ -1,0 +1,12 @@
+public class Class_Examples {
+	public static void main(String[] args) {
+		
+		
+		String a = "test";
+		String b = "test";
+		
+		boolean equal = (a == b);
+		System.out.println(equal);
+	}
+
+}

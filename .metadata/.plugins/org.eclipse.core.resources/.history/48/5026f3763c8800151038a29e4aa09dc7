@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Class_Task_Homework {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int row = scanner.nextInt();
+		int col = scanner.nextInt();
+		int[][] array = new int[row][col];
+		
+		int num = 1;
+		
+		
+	}
+
+}

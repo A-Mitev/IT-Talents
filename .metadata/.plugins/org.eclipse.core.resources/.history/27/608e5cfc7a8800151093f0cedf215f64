@@ -1,0 +1,12 @@
+public class Class_Task1 {
+	
+	static void printArrayFunc(int[] a){
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i] + " ");
+		}
+	}
+	
+	public static void main(String[] args) {
+		int[] array = {1,2,3,4,5};
+	}
+}

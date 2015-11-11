@@ -29,6 +29,7 @@ public class Task7 {
 		}
 		System.out.println("Sum of elements: " + sumOfAll);
 		
-	}
-
-}
+		
+		
+		
+	Da q napisha s edin cikul ot videoto ... 
