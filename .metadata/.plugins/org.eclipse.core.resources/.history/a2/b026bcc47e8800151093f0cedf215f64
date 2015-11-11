@@ -15,7 +15,9 @@ public class Class_Tasks_2 {
 		int size = scanner.nextInt();
 		int[] array = new int[size];
 
-		System.out.println(printArray(array));
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
 	}
 
 }
