@@ -9,7 +9,7 @@ public class Task_03 {
 		String firstSymbols = scanner.next();
 		String secondSymbols = scanner.next();
 
-		System.out.println("Please enter two Strings positions.");
+		System.out.println("Please enter two separate digits.");
 		int firstPosition = scanner.nextInt();
 		int secondPosition = scanner.nextInt();
 
@@ -28,8 +28,8 @@ public class Task_03 {
 		System.out.println("Difference by positions:");
 
 		//Proverka za nevalini pozicii.
-		while (!(firstPosition >= 1 && (firstPosition <= firstSymbols.length() || firstPosition <= secondSymbols.length()))
-				|| !(secondPosition >= 1 && (secondPosition <= firstSymbols.length() || secondPosition <= secondSymbols.length()))) {
+		while (!(firstPosition >= 0 && (firstPosition <= firstSymbols.length() || firstPosition <= secondSymbols.length()))
+				|| !(secondPosition >= 0 && (secondPosition <= firstSymbols.length() || secondPosition <= secondSymbols.length()))) {
 			System.out.println("Non-existing position. Please try again.");
 			firstPosition = scanner.nextInt();
 			secondPosition = scanner.nextInt();

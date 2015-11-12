@@ -9,7 +9,7 @@ public class Task_03 {
 		String firstSymbols = scanner.next();
 		String secondSymbols = scanner.next();
 
-		System.out.println("Please enter two Strings positions.");
+		System.out.println("Please enter two separate digits.");
 		int firstPosition = scanner.nextInt();
 		int secondPosition = scanner.nextInt();
 
