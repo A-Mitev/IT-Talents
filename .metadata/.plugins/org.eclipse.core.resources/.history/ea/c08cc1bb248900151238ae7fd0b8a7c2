@@ -5,32 +5,32 @@ public class Task_03 {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Please enter two successive Strings without spaces.");
+		System.out.println("Моля въведете двa последователни низа от символи без интервали.");
 		String firstSymbols = scanner.next();
 		String secondSymbols = scanner.next();
 
-		System.out.println("Please enter two separate digits.");
+		System.out.println("Моля въведете две последователни едноцифрени числа.");
 		int firstPosition = scanner.nextInt();
 		int secondPosition = scanner.nextInt();
 
 		int longestRow = Math.max(firstSymbols.length(), secondSymbols.length());
 
 		if ((firstSymbols.length() > secondSymbols.length()) && firstSymbols.length() == longestRow) {
-			System.out.println("First String is longer.");
+			System.out.println("Първият низ е по-дълъг.");
 		}
 		if ((secondSymbols.length() > firstSymbols.length()) && (secondSymbols.length() == longestRow)) {
-			System.out.println("Second String is longer.");
+			System.out.println("Вторият низ е по-дълъг.");
 		}
 		if (firstSymbols.length() == secondSymbols.length()) {
-			System.out.println("Two String are with equal length.");
+			System.out.println("Двата низа са с равна дължина.");
 		}
 
-		System.out.println("Difference by positions:");
+		System.out.println("Разлики по позиции:");
 
 		//Proverka za nevalini pozicii.
-		while (!(firstPosition >= 1 && (firstPosition <= firstSymbols.length() || firstPosition <= secondSymbols.length()))
-				|| !(secondPosition >= 1 && (secondPosition <= firstSymbols.length() || secondPosition <= secondSymbols.length()))) {
-			System.out.println("Non-existing position. Please try again.");
+		while (!(firstPosition >= 0 && (firstPosition < firstSymbols.length() || firstPosition < secondSymbols.length()))
+				|| !(secondPosition >= 0 && (secondPosition < firstSymbols.length() || secondPosition < secondSymbols.length()))) {
+			System.out.println("Несъществуваща позиция. Моля поитайте отново.");
 			firstPosition = scanner.nextInt();
 			secondPosition = scanner.nextInt();
 		}
