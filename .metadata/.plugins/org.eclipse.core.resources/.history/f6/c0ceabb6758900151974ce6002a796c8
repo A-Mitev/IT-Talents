@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Task_07 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String input = scanner.nextLine();
+		String[] words = input.split(" ");
+		String[] trimmedWords = new String[words.length];
+		
+		for (int i = 0; i < trimmedWords.length; i++) {
+			trimmedWords[i] = words[i].trim();
+		}
+		
+		
+		int maxLegth = 0;
+		for (int i = 0; i < trimmedWords.length; i++) {
+			if (maxLegth < trimmedWords[i].length()){
+				maxLegth = trimmedWords[i].length();
+			}
+		}
+		
+		System.out.print(trimmedWords.length);
+		System.out.print(" " + "words, the longest is with "
+								+ maxLegth + " symbols.");
+	}
+
+}
