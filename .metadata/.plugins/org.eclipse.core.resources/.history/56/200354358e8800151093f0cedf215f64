@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Task_02 {
+	public static void main(String[] args) {
+		@SuppressWarnings("unused")
+		Scanner scanner = new Scanner(System.in);
+		
+		String firstWord = "uchilishe";
+		String secondWord = "uchenik";
+		String newWord = "";
+		
+		int longerWord = 0;
+		if (firstWord.length() > secondWord.length()){
+			longerWord = firstWord.length();
+		} else if (firstWord.length() < secondWord.length()){
+			longerWord = secondWord.length();
+			// when they are equal
+		} else {
+			longerWord = firstWord.length();
+		}
+		
+		
+		
+		int symbolsForChange = 4;
+		for (int i = 0; i < symbolsForChange; i++) {
+			newWord = firstWord.replace(firstWord.charAt(i), secondWord.charAt(i));
+		}
+		
+		
+		
+		
+		
+		System.out.println(longerWord + " " + newWord);
+		
+	}
+
+}
