@@ -5,17 +5,17 @@ public class Task09 {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		
-		int a = scanner.nextInt();
-		int b = scanner.nextInt();
+		int numberA = scanner.nextInt();
+		int numberB = scanner.nextInt();
 		int sum =0;
 		
-		for (int i = a; i < b; i++) {
-			if (i % 3 == 0){
+		for (int index = numberA; index < numberB; index++) {
+			if (index % 3 == 0){
 				System.out.print("Skip 3" + ", ");
 				continue;
 			}
-			System.out.print((int)Math.pow(i, 2) + ", ");
-			sum += (int)Math.pow(i, 2);
+			System.out.print((int)Math.pow(index, 2) + ", ");
+			sum += (int)Math.pow(index, 2);
 			if (sum > 200){
 				break;
 			}

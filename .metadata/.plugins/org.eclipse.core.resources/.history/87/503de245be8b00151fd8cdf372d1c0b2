@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Task_15 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Please enter array size.");
+		
+		int arraySize = scanner.nextInt();
+		double[] array = new double [arraySize];
+		
+		for (int i = 0; i < array.length; i++) {
+			array[i] = scanner.nextDouble();
+		}
+		
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+	}
+
+}

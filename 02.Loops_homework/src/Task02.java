@@ -1,7 +1,7 @@
 public class Task02 {
 	public static void main(String[] args) {
-		for (int i = -20; i <= 50 ; i++) {
-			System.out.println(i);
+		for (int index = -20; index <= 50 ; index++) {
+			System.out.println(index);
 		}
 	}
 

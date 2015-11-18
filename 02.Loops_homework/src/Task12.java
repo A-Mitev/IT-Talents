@@ -1,13 +1,13 @@
 public class Task12 {
 	public static void main(String[] args) {
 		
-		for (int i = 100; i < 1000; i++) {
-			int firstDigit = (i  / 100) % 10;
-			int secondDigit = (i / 10) % 10;
-			int thirdDigit = i % 10;
+		for (int index = 100; index < 1000; index++) {
+			int firstDigit = (index  / 100) % 10;
+			int secondDigit = (index / 10) % 10;
+			int thirdDigit = index % 10;
 			
 			if ((firstDigit != secondDigit) && (secondDigit != thirdDigit) && (firstDigit != thirdDigit)){
-				System.out.print(i + " ");
+				System.out.print(index + " ");
 			} else {
 				continue;
 			}

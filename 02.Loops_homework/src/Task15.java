@@ -5,13 +5,13 @@ public class Task15 {
 		@SuppressWarnings("resource")
 		Scanner scanner= new Scanner(System.in);
 		
-		int n = scanner.nextInt();
+		int input = scanner.nextInt();
 		int sum = 1;
 		int currentNum = 1;
 		do {
 			sum += ++currentNum;
 		} 
-		while (currentNum < n);
+		while (currentNum < input);
 		System.out.println(sum);
 	}
 

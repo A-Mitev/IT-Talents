@@ -4,15 +4,15 @@ public class Task08 {
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
-		int n = scanner.nextInt();
+		int input = scanner.nextInt();
 
-		for (int i = 0; i < n * 2; i++) {
-			for (int j = 0; j < n; j++) {
-				System.out.print((i + n) - 1);
+		for (int index = 0; index < input * 2; index++) {
+			for (int j = 0; j < input; j++) {
+				System.out.print((index + input) - 1);
 
 			}
 			System.out.println();
-			i += 1;
+			index += 1;
 
 		}
 	}

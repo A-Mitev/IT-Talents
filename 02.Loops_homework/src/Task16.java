@@ -5,10 +5,10 @@ public class Task16 {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		
-		int a = scanner.nextInt();
-		int b = scanner.nextInt();
+		int firstNum = scanner.nextInt();
+		int secondNum = scanner.nextInt();
 		
-		for (int i = Math.max(a, b); i > Math.min(a, b); i--) {
+		for (int i = Math.max(firstNum, secondNum); i > Math.min(firstNum, secondNum); i--) {
 			if (i % 50 == 0){
 				System.out.print(i + ", ");
 			} else {

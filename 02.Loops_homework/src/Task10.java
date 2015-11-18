@@ -11,13 +11,13 @@ public class Task10 {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 
-		int num = scanner.nextInt();
+		int number = scanner.nextInt();
 		int devider = 2;
-		int maxDevider = (int)Math.sqrt(num); // Kastvam kum int zashtoto Math.sqrt() vrushta double.
+		int maxDevider = (int)Math.sqrt(number); // Kastvam kum int zashtoto Math.sqrt() vrushta double.
 		boolean prime = true;
 
 		while (prime && (devider <= maxDevider)) {
-			if (num % devider == 0) {
+			if (number % devider == 0) {
 				prime = false;
 			}
 			devider++;
