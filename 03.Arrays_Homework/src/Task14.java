@@ -5,27 +5,27 @@ public class Task14 {
 
 		int numbersCount = 0;
 
-		for (int i = 0; i < array.length; i++) {		// Cikul za izchislenie na goleminata na vroiq masiv.
-			if ((array[i] > -3.00) && (array[i] < 3.00)) {
+		for (int index = 0; index < array.length; index++) {		// Cikul za izchislenie na goleminata na vroiq masiv.
+			if ((array[index] > -3.00) && (array[index] < 3.00)) {
 				numbersCount++;
 			}
 		}
 
 		int indexRaise = 0;                            // Promenliva po koqto da se vodi dobavqneto na novi elementi za da se izbegnat nulite.
 		double[] newArray = new double[numbersCount];
-		for (int i = 0; i < array.length; i++) {
-			if ((array[i] > -3.00) && (array[i] < 3.00)) {
-				newArray[indexRaise] = array[i];
+		for (int index = 0; index < array.length; index++) {
+			if ((array[index] > -3.00) && (array[index] < 3.00)) {
+				newArray[indexRaise] = array[index];
 				indexRaise++;
 			}
 		}
 
-		for (int i = 0; i < newArray.length; i++) {
-			if (i == newArray.length - 1) {
-				System.out.print(newArray[i]);
+		for (int index = 0; index < newArray.length; index++) {
+			if (index == newArray.length - 1) {
+				System.out.print(newArray[index]);
 				break;
 			} else {
-				System.out.print(newArray[i] + "; ");
+				System.out.print(newArray[index] + "; ");
 			}
 		}
 

@@ -9,29 +9,29 @@ public class Task02 {
 		int[] arrayBuffer = new int[newArray.length / 2];
 		int reverce = arrayBuffer.length;
 
-		for (int i = 0; i < array.length; i++) {
-			array[i] = scanner.nextInt();
+		for (int index = 0; index < array.length; index++) {
+			array[index] = scanner.nextInt();
 		}
 
-		for (int i = 0; i < newArray.length / 2; i++) {
-			newArray[i] = array[i];
+		for (int index = 0; index < newArray.length / 2; index++) {
+			newArray[index] = array[index];
 		}
 
-		for (int i = arrayBuffer.length - 1; i >= 0; i--) {
-			arrayBuffer[i] = newArray[i];
+		for (int index = arrayBuffer.length - 1; index >= 0; index--) {
+			arrayBuffer[index] = newArray[index];
 		}
 
-		for (int i = 0; i < arrayBuffer.length; i++) {
-			System.out.println(arrayBuffer[i]);
+		for (int index = 0; index < arrayBuffer.length; index++) {
+			System.out.println(arrayBuffer[index]);
 		}
 
-		for (int i = newArray.length / 2; i <= newArray.length - 1; i++) {
-			newArray[i] = arrayBuffer[reverce - 1];
+		for (int index = newArray.length / 2; index <= newArray.length - 1; index++) {
+			newArray[index] = arrayBuffer[reverce - 1];
 			reverce--;
 		}
 
-		for (int i = 0; i < newArray.length; i++) {
-			System.out.print(newArray[i]);
+		for (int index = 0; index < newArray.length; index++) {
+			System.out.print(newArray[index]);
 		}
 
 	}

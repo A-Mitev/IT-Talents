@@ -1,8 +1,0 @@
-public class Task01 {
-	public static void main(String[] args) {
-		for (int indexi = 1; indexi < 101; indexi++) {
-			System.out.println(indexi);
-		}
-	}
-
-}

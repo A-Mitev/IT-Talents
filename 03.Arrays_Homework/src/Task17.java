@@ -9,8 +9,8 @@ public class Task17 {
 		int arraySize = scanner.nextInt();
 		int[] array = new int[arraySize];
 
-		for (int i = 0; i < array.length; i++) {
-			array[i] = scanner.nextInt();
+		for (int index = 0; index < array.length; index++) {
+			array[index] = scanner.nextInt();
 		}
 		boolean nazubenNagore = true;
 

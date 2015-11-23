@@ -4,8 +4,8 @@ public class Task10 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		int size = 7;
-		int[] array = new int[size];
+		int arraySize = 7;
+		int[] array = new int[arraySize];
 		int sum = 0; // neobhodima za presmqtane na srednata stojnost
 		int average;
 

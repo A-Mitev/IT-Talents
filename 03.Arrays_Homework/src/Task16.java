@@ -12,16 +12,16 @@ public class Task16 {
 			array[i] = scanner.nextFloat();
 		}
 
-		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i] + ", ");
+		for (int index = 0; index < array.length; index++) {
+			System.out.print(array[index] + ", ");
 		}
 		System.out.println();
 
-		for (int i = 0; i < array.length; i++) {
-			if (array[i] < -0.231) {
-				array[i] = (float) (Math.pow(i + 1, 2) + 41.25);
+		for (int index = 0; index < array.length; index++) {
+			if (array[index] < -0.231) {
+				array[index] = (float) (Math.pow(index + 1, 2) + 41.25);
 			} else {
-				array[i] = array[i] * (i + 1);
+				array[index] = array[index] * (index + 1);
 			}
 		}
 

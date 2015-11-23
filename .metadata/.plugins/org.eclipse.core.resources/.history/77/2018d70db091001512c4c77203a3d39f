@@ -1,0 +1,16 @@
+public class Even_sum_Recursion_task {
+	
+	static int evenFunction(int number){
+		if(number == 0){
+			return 0;
+		}
+		return number + evenFunction(number - 2);
+	}
+
+	public static void main(String[] args) {
+		int number = 7;
+		
+		System.out.println(evenFunction(number));
+		
+	}
+}

@@ -1,0 +1,15 @@
+public class Function_print_Hi {
+
+	static void printFunction(String hi, int a) {
+		for (int i = 0; i < a; i++) {
+			System.out.println(hi);
+
+		}
+	}
+
+	public static void main(String[] args) {
+		String hi = "Hi";
+		int a = 5;
+	}
+
+}

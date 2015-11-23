@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Task_14 {
+
+	static int calculateFactioial(int userInput) {
+		int factorial = 1;
+		for (int index = 1; index <= userInput; index++) {
+			factorial *= index;
+		}
+		return factorial;
+	}
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Please enter a digit for Factorial calculation.");
+		int userInput = scanner.nextInt();
+		
+		calculateFactioial(userInput);
+	}
+
+}

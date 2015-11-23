@@ -10,22 +10,23 @@ public class Task07 {
 		int[] newArray = new int[array.length];
 
 		System.out.println("Please enter digits for the array");
-		for (int i = 0; i < array.length; i++) {
-			array[i] = scanner.nextInt();
+		for (int index = 0; index < array.length; index++) {
+			array[index] = scanner.nextInt();
 		}
 
-		for (int i = 0; i < newArray.length; i++) {
-			if (i == 0) {
-				newArray[i] = array[i + 1];     // Because there is no previous value it is set to get only the next value.
-			} else if (i == newArray.length - 1) {
-				newArray[i] = array[i - 1];     // Because there is no next value it is set to get only previous value.
+		
+		for (int index = 0; index < newArray.length; index++) {
+			if (index == 0) {
+				newArray[index] = array[index + 1];     // Because there is no previous value it is set to get only the next value.
+			} else if (index == newArray.length - 1) {
+				newArray[index] = array[index - 1];     // Because there is no next value it is set to get only previous value.
 			} else {
-				newArray[i] = (array[i - 1] + array[i + 1]);
+				newArray[index] = (array[index - 1] + array[index + 1]);
 			}
 		}
 
-		for (int i = 0; i < newArray.length; i++) {
-			System.out.print(newArray[i] + " ");
+		for (int index  = 0; index < newArray.length; index++) {
+			System.out.print(newArray[index] + " ");
 		}
 	}
 }

@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task09 {
@@ -12,12 +13,12 @@ public class Task09 {
 
 		System.out.println("Please enter digits for the array.");
 
-		for (int i = 0; i < array.length; i++) {
-			array[i] = scanner.nextInt();
+		for (int index = 0; index < array.length; index++) {
+			array[index] = scanner.nextInt();
 		}
 
-		for (int i = 0; i < array.length; i++) {               // obrushtam purviq masiv s pomoshtta na novmasiv
-			arrayReverse[i] = array[arrayLength - 1];
+		for (int index = 0; index < array.length; index++) {               // obrushtam purviq masiv s pomoshtta na nov masiv
+			arrayReverse[index] = array[arrayLength - 1];
 			arrayLength--;
 		}
 
@@ -41,10 +42,7 @@ public class Task09 {
 			}
 		}
 		
-		for (int i = 0; i < arrayReverse.length; i++) {
-			System.out.print(arrayReverse[i]);
+		System.out.println(Arrays.toString(arrayReverse));
 		}
 
 	}
-
-}

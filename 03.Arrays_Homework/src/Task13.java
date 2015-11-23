@@ -21,15 +21,15 @@ public class Task13 {
 		System.out.println("The REVERSED binary representation of the number is " + binary);
 		int[] array = new int[count];
 
-		for (int i = 0; i < array.length; i++) {
-			array[i] = binary % 10;
+		for (int index = 0; index < array.length; index++) {
+			array[index] = binary % 10;
 			binary /= 10;
 		}
 
 		// System.out.println(count);
 		System.out.print("The right order representation from the array is    ");
-		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i]);
+		for (int index = 0; index < array.length; index++) {
+			System.out.print(array[index]);
 		}
 	}
 }

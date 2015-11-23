@@ -1,0 +1,26 @@
+import java.util.Arrays;
+
+public class Task_13 {
+	
+	static int[] combineFunction(int[] firstArray, int[] secondArray){
+		int[] thirdArray = new int[firstArray.length + secondArray.length];
+		for (int index = 0; index < thirdArray.length; index++) {
+			if(index < firstArray.length -1){
+				thirdArray[index] = firstArray[index];
+			} else {
+				thirdArray[index] = secondArray[index];
+			}
+		}
+		return thirdArray;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		int[] firstArray = {1,2,3,4,5};
+		int[] secondArray = {6,7,8,9,10};
+		
+		System.out.println(Arrays.toString(combineFunction(firstArray, secondArray)));
+	}
+
+}

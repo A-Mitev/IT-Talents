@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Task_10 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String userInput = "Hello";
+		String result = "";
+		
+		for (int index = 0; index < userInput.length() - 1; index++) {
+			result += userInput.charAt(index + 5);
+		}
+		
+		System.out.println(result);
+	}
+
+}

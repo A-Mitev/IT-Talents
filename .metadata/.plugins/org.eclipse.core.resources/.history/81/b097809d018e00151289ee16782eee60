@@ -1,0 +1,31 @@
+import java.util.Arrays;
+
+public class Selection_sort {
+	public static void main(String[] args) {
+
+		int[] array = { 3, 1, 5, 2, 7, 4, 5, 5, 7, 3, 6 };
+
+		int arrayEnd = array.length - 1;
+		int maxValue = Integer.MIN_VALUE;
+		int minValue = Integer.MAX_VALUE;
+		int temp = 0;
+
+		for (int index = 0; index < array.length; index++) {
+			for (int j = 0; j < arrayEnd; j++) {
+					if(array[j] > maxValue){
+						maxValue = array[j];
+					}
+					if(array[j] < minValue){
+						minValue = array[j];
+						
+				}
+			}
+			array[index] = minValue;
+			array[arrayEnd] = maxValue;
+
+			arrayEnd--;
+		}
+		System.out.println(Arrays.toString(array));
+	}
+
+}

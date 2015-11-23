@@ -5,8 +5,8 @@ public class Task12 {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 
-		int size = 7;
-		int[] array = new int[size];
+		int arraySize = 7;
+		int[] array = new int[arraySize];
 
 		System.out.println("Please enter 7 digits!");
 		for (int i = 0; i < array.length; i++) {

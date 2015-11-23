@@ -3,12 +3,12 @@ public class Task05 {
 
 		int[] array = new int[10];
 
-		for (int i = 0; i < array.length; i++) {
-			array[i] = i * 3;
+		for (int index = 0; index < array.length; index++) {
+			array[index] = index * 3;
 		}
 
-		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i] + " ");
+		for (int index = 0; index < array.length; index++) {
+			System.out.print(array[index] + " ");
 		}
 	}
 }

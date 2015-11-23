@@ -12,19 +12,19 @@ public class Task06 {
 		boolean equal = false;
 		boolean sameSize = false;
 		System.out.println("Please enter first array digits.");
-		for (int i = 0; i < firstArray.length; i++) {
-			firstArray[i] = scanner.nextInt();
+		for (int index = 0; index < firstArray.length; index++) {
+			firstArray[index] = scanner.nextInt();
 		}
 		System.out.println("Please enter second array digits.");
-		for (int i = 0; i < secondArray.length; i++) {
-			secondArray[i] = scanner.nextInt();
+		for (int index = 0; index < secondArray.length; index++) {
+			secondArray[index] = scanner.nextInt();
 		}
 		
 		if ((firstArray.length > secondArray.length) ||
 				(firstArray.length == secondArray.length)){
 			
-			for (int i = 0; i < firstArray.length; i++) {
-				if (firstArray[i] == secondArray[i]){
+			for (int index = 0; index < firstArray.length; index++) {
+				if (firstArray[index] == secondArray[index]){
 					equal = true;
 				} else {
 					equal = false;
@@ -33,8 +33,8 @@ public class Task06 {
 		}
 		
 		if (secondArray.length > firstArray.length){
-			for (int i = 0; i < secondArray.length; i++) {
-				if (secondArray[i] == firstArray[i]){
+			for (int index = 0; index < secondArray.length; index++) {
+				if (secondArray[index] == firstArray[index]){
 					equal = true;
 				} else {
 					equal = false;

@@ -8,19 +8,19 @@ public class Task03 {
 		int input = scanner.nextInt();
 		int[] array = new int[10];
 
-		for (int i = 0; i < array.length; i++) {
-			if (i < 2) {
-				array[i] = input;
+		for (int index = 0; index < array.length; index++) {
+			if (index < 2) {
+				array[index] = input;
 			} else {
-				array[i] = (array[i - 1] + array[i - 2]);
+				array[index] = (array[index - 1] + array[index - 2]);
 			}
 		}
-		for (int i = 0; i < array.length; i++) {
-			if (i < array.length - 1) {
-				System.out.print(array[i] + ", ");
+		for (int index = 0; index < array.length; index++) {
+			if (index < array.length - 1) {
+				System.out.print(array[index] + ", ");
 			}
-			if (i == array.length - 1) {
-				System.out.print(array[i]);
+			if (index == array.length - 1) {
+				System.out.print(array[index]);
 			}
 		}
 	}

@@ -18,8 +18,8 @@ public class Task15 {
 		double[] array = new double[arraySize];
 		double[] maxValueNumbers = new double[3];
 
-		for (int i = 0; i < array.length; i++) {
-			array[i] = scanner.nextDouble();
+		for (int index = 0; index < array.length; index++) {
+			array[index] = scanner.nextDouble();
 		}
 
 		for (int i = 0; i < array.length; i++) {

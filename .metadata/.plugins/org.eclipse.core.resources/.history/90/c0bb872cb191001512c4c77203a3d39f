@@ -1,0 +1,23 @@
+public class Even_sum_Recursion_task {
+
+	static int sumEven(int n) {
+		if (n == 2) {
+			return 2;
+		}
+		if (n < 2) {
+			return 0;
+		}
+		
+		if (n % 2 == 0) {
+			return n + sumEven(n-2);
+		}
+		else {
+			return sumEven(n-1);
+		}
+	}
+
+	public static void main(String[] args) {
+		int number = 7;
+		System.out.println(sumEven(number));
+	}
+}
