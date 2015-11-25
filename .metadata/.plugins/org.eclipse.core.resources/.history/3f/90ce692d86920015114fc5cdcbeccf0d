@@ -1,0 +1,44 @@
+import java.util.Arrays;
+
+public class Selection_Sort {
+	public static void main(String[] args) {
+
+		int[] array = { 2, 1, 4, 3, 3, 4, 5 };
+		
+		int endIndex = array.length -1;
+		int startIndex = 0;
+		int currMaxIndex = 0;
+		int currMinIndex = 0;
+		
+		
+		int maxNumber = 0;
+		int minNumber = 0;
+		
+		for (int i = 0; i < array.length ; i++) {
+			for (int index = 0; index < array.length -1; index++) {
+				if (array[index] > array[index + 1]) {
+					maxNumber = array[index];
+					currMaxIndex = index;
+				}
+				if (array[index] < array[index + 1]) {
+					minNumber = array[index];
+					currMinIndex = index;
+				}
+			}
+			int tempMax = array[currMaxIndex];
+			array[currMaxIndex] = array[endIndex];
+			array[endIndex] = tempMax;
+			endIndex--;
+			
+			int tempMin = array[currMinIndex];
+			array[currMinIndex] = array[startIndex];
+			array[startIndex] = tempMin;
+			startIndex++;
+			
+			}
+			System.out.println(Arrays.toString(array));
+		}
+
+		
+	}
+

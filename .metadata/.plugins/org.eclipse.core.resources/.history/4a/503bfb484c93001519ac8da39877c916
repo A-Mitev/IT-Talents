@@ -1,0 +1,21 @@
+public class Simple_Task_1 {
+	public static int fibonachiFunc(int num,int input, int count){
+		
+		if(count == input){
+			return fibonachiFunc( num,input,count);
+		}
+		num += num;
+		count++;
+		return num + fibonachiFunc(num,input,count);
+		
+	}
+	
+	public static void main(String[] args) {
+		int input = 8;
+		int count = 0;
+		int num = 1;
+		
+		System.out.println(fibonachiFunc(num,input,count));
+	}
+
+}

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Factorial_Recursion {
 	
-	static int factoiralFunc(int number){
+	static long factoiralFunc(long number){
 		if(number <= 1){
 			return 1;
 		}
@@ -12,7 +12,7 @@ public class Factorial_Recursion {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		int number = scanner.nextInt();
+		long number = scanner.nextInt();
 		
 		System.out.println(factoiralFunc(number));
 		
