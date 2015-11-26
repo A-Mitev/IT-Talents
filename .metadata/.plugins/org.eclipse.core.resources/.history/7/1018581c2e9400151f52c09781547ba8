@@ -7,8 +7,8 @@ public class Selection_sort_test {
 		for (int index = 1; index < array.length; index++) {
 			int maxIndex = 0;
 			for (int j = 0; j <= array.length - index; j++) {
-				if (array[j] > maxIndex) {
-					maxIndex = j;
+				if (array[j] > array[maxIndex]) {
+					maxIndex = array[j];
 				}
 			}
 			int temp = array[maxIndex];
