@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+public class Selection_sort_test {
+	
+	public static void selectionSort(int[] array){
+		
+		for (int index = 1; index < array.length; index++) {
+			int maxIndex = 0;
+			for (int j = 0; j < array.length - j; j++) {
+				if(array[j] > array[maxIndex]){
+					maxIndex = j;
+				}
+			}
+			int temp = array[maxIndex];
+			array[maxIndex] = array[array.length - index];
+			array[array.length - index] = temp;
+		}
+	}
+
+	
+	public static void main(String[] args) {
+		int[] array = { 2, 3, 2, 7, 3, 4, 5, 6, 2, 6, 3 };
+		selectionSort(array);
+		System.out.println(array);
+	}
+	
+}

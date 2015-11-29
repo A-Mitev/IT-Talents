@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;lastNumber&apos; in &apos;Quick_Sort_Test.partitionF(...)&apos; to &apos;pivot&apos;&#x0D;&#x0A;- Original project: &apos;08_Sorting_Algoritms&apos;&#x0D;&#x0A;- Original element: &apos;Quick_Sort_Test.partitionF(int[]).lastNumber&apos;&#x0D;&#x0A;- Renamed element: &apos;lastNumber&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;lastNumber&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Quick_Sort_Test.java[Quick_Sort_Test~partitionF~\[I@lastNumber!118!158!122!131!I!0!false" name="pivot" references="true" stamp="1448799984669" version="1.0"/>
+</session>

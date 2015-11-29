@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class Selection_Sort {
 	static void selectionSort(int[] num) {
+		
 		for (int sortedCount = 1; sortedCount < num.length; sortedCount++) {
 			int maxIndex = 0;
 			for (int index = 0; index <= num.length - sortedCount; index++) {

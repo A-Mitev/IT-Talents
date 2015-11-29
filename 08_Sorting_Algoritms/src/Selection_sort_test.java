@@ -1,13 +1,13 @@
 import java.util.Arrays;
 
 public class Selection_sort_test {
-
-	static void selectionSort(int[] array) {
-
+	
+	public static void selectionSort(int[] array){
+		
 		for (int index = 1; index < array.length; index++) {
 			int maxIndex = 0;
 			for (int j = 0; j <= array.length - index; j++) {
-				if (array[j] > maxIndex) {
+				if(array[j] > array[maxIndex]){
 					maxIndex = j;
 				}
 			}
@@ -17,9 +17,11 @@ public class Selection_sort_test {
 		}
 	}
 
+	
 	public static void main(String[] args) {
-		int[] array = { 3, 2, 7, -2, -8, 23, 4, -5, 57 };
+		int[] array = { 2, 3, 2, 7, 3, 4, 5, 6, 2, 6, 3 };
 		selectionSort(array);
 		System.out.println(Arrays.toString(array));
 	}
+	
 }
