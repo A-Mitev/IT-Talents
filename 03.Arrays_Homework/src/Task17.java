@@ -19,7 +19,7 @@ public class Task17 {
 		} else {
 			nazubenNagore = false;
 		}
-
+ 
 		if (nazubenNagore) {
 			for (int i = 1; i <= array.length; i += 2) {
 				if (i == array.length) {
