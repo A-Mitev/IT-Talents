@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;String_Funktions_in_Java&apos; to &apos;String_Functions_in_Java&apos;&#x0D;&#x0A;- Original element: &apos;String_Funktions_in_Java&apos;&#x0D;&#x0A;- Renamed element: &apos;String_Funktions_in_Java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;String_Funktions_in_Java&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=String_Funktions_in_Java" name="String_Functions_in_Java" references="true" stamp="1447322226826" version="1.0"/>
+</session>

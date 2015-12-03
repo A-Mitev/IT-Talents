@@ -1,0 +1,11 @@
+public class Test3 {
+	public static void main(String[] args) {
+
+		int[] Svetleto = { 1, 2, 3, 4, 5, 6 };
+
+		int cifra = Svetleto[2];
+
+		System.out.println(cifra);
+	}
+
+}

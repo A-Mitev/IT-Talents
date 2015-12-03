@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Simple_Task_4 {
+	
+	static void triangleFunc(int startNumber, int endNumber){
+		int lastIndex = 2;
+		if(lastIndex == endNumber){
+			return;
+		}
+		
+		for (int index = startNumber; index <= lastIndex; index++) {
+			System.out.print(index+ " ");
+			
+		}
+		lastIndex++;
+		System.out.println();
+		triangleFunc(startNumber, endNumber -1);
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int startNumber = scanner.nextInt();
+		int endNumber = scanner.nextInt();
+		
+		triangleFunc(startNumber, endNumber);
+	}
+
+}
