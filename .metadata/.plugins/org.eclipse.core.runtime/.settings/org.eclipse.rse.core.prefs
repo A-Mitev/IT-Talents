@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 activeuserprofiles=DESKTOP-MV1B3MS;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=Asus
+=======
+activeuserprofiles=DESKTOP-7G974TD;Team
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=Asus
+useridperkey=DESKTOP-7G974TD.Local\=Asus;
+>>>>>>> 42014efc3d5bb9fa02a8575959d4c09fc7daca29

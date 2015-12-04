@@ -1,0 +1,26 @@
+import java.util.Arrays;
+
+public class Quick_Sort_Test {
+
+	static int partitionF(int[] array) {
+		int k = -1;
+		int lastNumber = array[array.length - 1];
+		for (int index = 0; index <= array.length - 1; index++) {
+			if (array[index] <= lastNumber) {
+				k++;
+				int temp = array[index];
+				array[index] = array[k];
+				array[k] = temp;
+			}
+		}
+		return k;
+	}
+
+	public static void main(String[] args) {
+		int[] array = { 3, 2, 1, 4, 2, 4, 5, 3, 4, 2, 2, 4, 5, 3 };
+		int position = partitionF(array);
+		System.out.println(Arrays.toString(array));
+		System.out.println(position);
+	}
+
+}

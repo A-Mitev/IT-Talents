@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+public class Selection_sort_test {
+	
+	static void selectionSort(int[] array){
+		
+		for (int index = 1; index < array.length; index++) {
+			int maxIndex = 0;
+			for (int index1 = 0; index1 <= array.length - index; index1++) {
+				if (array[index1] > array[maxIndex]){
+					maxIndex = index1;
+				}
+			}
+			int temp = array[maxIndex];
+			array[maxIndex] = array[array.length - index];
+			array[array.length -index] = temp;
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		int[] array = { 3, 2, 7, -2, -8, 23, 4, -5, 57 };
+		System.out.println(Arrays.toString(array));
+	}
+}
