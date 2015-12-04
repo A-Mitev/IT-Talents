@@ -13,5 +13,7 @@ public class Class_Tasks {
 		int userInput = 5;
 		sayHi(userInput);
 	}
+	
+	//testvam s ruchnite comandi za git
 
 }

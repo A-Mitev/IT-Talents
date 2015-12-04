@@ -1,6 +1,5 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=42014efc3d5bb9fa02a8575959d4c09fc7daca29
 eclipse.preferences.version=1
-<<<<<<< HEAD
-org.eclipse.rse.preferences.order.connections=DESKTOP-MV1B3MS.Local
-=======
-org.eclipse.rse.preferences.order.connections=DESKTOP-7G974TD.Local
->>>>>>> 42014efc3d5bb9fa02a8575959d4c09fc7daca29
+org.eclipse.rse.preferences.order.connections=DESKTOP-7G974TD.Local;DESKTOP-MV1B3MS.Local
