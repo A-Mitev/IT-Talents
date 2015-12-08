@@ -15,7 +15,7 @@ public class CarDemo {
 		
 		Person Pepa = new Person();
 		Pepa.age = 40;
-		Pepa.name = "Pepkaa";
+		Pepa.name = "Pepa";
 		
 		Dobri.friend = Pepa;
 		

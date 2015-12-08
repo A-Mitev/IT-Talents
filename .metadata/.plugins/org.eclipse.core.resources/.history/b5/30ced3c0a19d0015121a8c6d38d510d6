@@ -15,12 +15,9 @@ public class CarDemo {
 		
 		Person Pepa = new Person();
 		Pepa.age = 40;
-		Pepa.name = "Pepkaa";
+		Pepa.name = "Pepa";
 		
-		Dobri.friend = Pepa;
-		
-		
-		System.out.println(Dobri.friend.name);
+		System.out.println(Dobri.friend);
 
 		System.out.println(skoda.owner.name + " " + skoda.owner.age + " " + skoda.maxSpeed);
 
