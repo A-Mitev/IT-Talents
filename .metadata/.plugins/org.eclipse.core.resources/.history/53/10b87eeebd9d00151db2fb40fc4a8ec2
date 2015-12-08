@@ -1,0 +1,13 @@
+package CarDemo;
+
+public class CarDemo {
+	public static void main(String[] args) {
+
+		Car Skoda = new Car();
+		Skoda.maxSpeed = 220;
+		Skoda.color = "silver";
+		
+		System.out.println("The color of my Skoda " + Skoda.color + "and it has max speed of " + Skoda.maxSpeed);
+
+	}
+}

@@ -6,7 +6,6 @@ public class CarDemo {
 		Car Skoda = new Car();
 		Skoda.maxSpeed = 220;
 		Skoda.color = "silver";
-		Skoda.model = "Rapid";
 		
 		System.out.println("The color of my Skoda " + Skoda.color + "and it has max speed of " + Skoda.maxSpeed);
 		
@@ -23,8 +22,6 @@ public class CarDemo {
 		Alex.friend = Pepa;
 		
 		System.out.println("The friend ot Alex is " + Alex.friend.name + ", she is " + Pepa.age + " yeares old.");
-		
-		Skoda.printOwnerDetails();
 
 	}
 }

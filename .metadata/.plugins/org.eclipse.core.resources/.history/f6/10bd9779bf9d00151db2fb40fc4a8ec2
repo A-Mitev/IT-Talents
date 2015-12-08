@@ -24,7 +24,7 @@ public class CarDemo {
 		
 		System.out.println("The friend ot Alex is " + Alex.friend.name + ", she is " + Pepa.age + " yeares old.");
 		
-		Skoda.printOwnerDetails();
+		Skoda.printCarDetails();
 
 	}
 }

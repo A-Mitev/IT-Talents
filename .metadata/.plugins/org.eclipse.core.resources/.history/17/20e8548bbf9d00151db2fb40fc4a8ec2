@@ -8,9 +8,10 @@ public class Car {
 	int currentGear;
 
 	Person owner;
-
-	void printOwnerDetails() {
-		System.out.println(owner.name + " " + owner.age + " " + maxSpeed + " " + model);
+	
+	void printOwnerDetails(){
+		System.out.println(owner.name + " " + owner.age + maxSpeed + model);
 	}
 
+	
 }
