@@ -22,7 +22,7 @@ public class CarDemo {
 		Pepa.age = 21;
 		Alex.friend = Pepa;
 		
-		System.out.println("The friend ot Alex is " + Alex.friend.name + ", she is " + Pepa.age + " years old.");
+		System.out.println("The friend ot Alex is " + Alex.friend.name + ", she is " + Pepa.age + " yeares old.");
 		
 		Skoda.printOwnerDetails();
 
