@@ -10,7 +10,7 @@ public class Computer {
 	//String brand;     za test
 
 	void changeOperationSystem(String newOperationSystem) {
-		this.operationSystem = newOperationSystem;
+		operationSystem = newOperationSystem;
 
 	}
 
@@ -19,13 +19,13 @@ public class Computer {
 			System.out.println("Not enough free memory!");
 			return;
 		} else {
-			this.freeMemory -= memory;
+			freeMemory -= memory;
 		}
 	}
 
 	void printComputerElements() {
-		System.out.println("Year ot production - " + this.year + "\n" + "Price - " + this.price + "\n" + "Notebook - "
-				+ this.isNotebook + "\n" + "Hdd capacity - " + this.hardDiskMemory + "\n" + "Free memory - " + this.freeMemory + "\n"
-				+ "Opration system - " + this.operationSystem + "\n");
+		System.out.println("Year ot production - " + year + "\n" + "Price - " + price + "\n" + "Notebook - "
+				+ isNotebook + "\n" + "Hdd capacity - " + hardDiskMemory + "\n" + "Free memory - " + freeMemory + "\n"
+				+ "Opration system - " + operationSystem + "\n");
 	}
 }
