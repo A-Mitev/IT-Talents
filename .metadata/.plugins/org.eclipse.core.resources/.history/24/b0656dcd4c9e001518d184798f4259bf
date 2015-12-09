@@ -7,7 +7,7 @@ public class Computer {
 	int hardDiskMemory;
 	int freeMemory;
 	String operationSystem;
-	// String brand; za test
+	//String brand;     za test
 
 	void changeOperationSystem(String newOperationSystem) {
 		this.operationSystem = newOperationSystem;
@@ -15,7 +15,7 @@ public class Computer {
 	}
 
 	void useMemory(int memory) {
-		if (memory > this.freeMemory) {
+		if (memory > freeMemory) {
 			System.out.println("Not enough free memory!");
 			return;
 		} else {
@@ -24,9 +24,8 @@ public class Computer {
 	}
 
 	void printComputerElements() {
-		System.out.println("Year ot production - " + this.year + "\n" + "Price - " + this.price + " lv." + "\n"
-				+ "Notebook - " + this.isNotebook + "\n" + "Hdd capacity - " + this.hardDiskMemory + " GB " + "\n"
-				+ "Free memory - " + this.freeMemory + " GB " + "\n" + "Opration system - " + this.operationSystem
-				+ "\n");
+		System.out.println("Year ot production - " + this.year + "\n" + "Price - " + this.price + "\n" + "Notebook - "
+				+ this.isNotebook + "\n" + "Hdd capacity - " + this.hardDiskMemory + "\n" + "Free memory - " + this.freeMemory + "\n"
+				+ "Opration system - " + this.operationSystem + "\n");
 	}
 }
