@@ -12,7 +12,7 @@ public class Computer_Summary {
 		Asus.freeMemory = 950;
 		Asus.operationSystem = "Windows 8.1";
 		Asus.isNotebook = true;
-		Asus.brand = "Asus";
+		//Asus.brand = "Asus";                     za test
 
 		Dell.year = 2010;
 		Dell.price = 599;
@@ -20,19 +20,24 @@ public class Computer_Summary {
 		Dell.freeMemory = 250;
 		Dell.operationSystem = "Linux";
 		Dell.isNotebook = false;
-		Dell.brand = "Dell";
+		//Dell.brand = "Dell";                       za test
+		
 
 		String newOperationSystem = "Windows 10";
 		Asus.changeOperationSystem(newOperationSystem);
 
 		int memory = 150;
 		Dell.useMemory(memory);
+		
+		
 
 		System.out.println("Computer Asus characteristics:");
-		Asus.printComputerElements("Asus");
+		//Asus.printComputerElements("Asus");         za test
+		Asus.printComputerElements();
 		System.out.println();
 		System.out.println("Computer Dell characteristics:");
-		Dell.printComputerElements("Dell");
-
+		//Dell.printComputerElements("Dell");          za test
+		Dell.printComputerElements();
+		
 	}
 }

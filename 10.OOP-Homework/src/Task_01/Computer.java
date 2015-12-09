@@ -1,4 +1,5 @@
 package Task_01;
+
 public class Computer {
 	int year;
 	double price;
@@ -6,11 +7,11 @@ public class Computer {
 	int hardDiskMemory;
 	int freeMemory;
 	String operationSystem;
-	String brand;
+	//String brand;     za test
 
 	void changeOperationSystem(String newOperationSystem) {
 		operationSystem = newOperationSystem;
-		
+
 	}
 
 	void useMemory(int memory) {
@@ -21,11 +22,10 @@ public class Computer {
 			freeMemory -= memory;
 		}
 	}
-	
-	void printComputerElements(String brand){
-		System.out.println("Year ot production - "+ year + "\n" +
-				"Price - " + price + "\n" + "Notebook - " + isNotebook + "\n" +
-					"Hdd capacity - " + hardDiskMemory + "\n" + "Free memory - " + freeMemory + "\n" +
-						"Opration system - " + operationSystem + "\n");
+
+	void printComputerElements() {
+		System.out.println("Year ot production - " + year + "\n" + "Price - " + price + "\n" + "Notebook - "
+				+ isNotebook + "\n" + "Hdd capacity - " + hardDiskMemory + "\n" + "Free memory - " + freeMemory + "\n"
+				+ "Opration system - " + operationSystem + "\n");
 	}
 }
