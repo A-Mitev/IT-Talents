@@ -1,0 +1,38 @@
+package Task_01;
+
+public class Computer_Summary {
+	public static void main(String[] args) {
+		
+	
+	Computer Asus = new Computer();
+	Computer Dell = new Computer();
+	
+	Asus.year = 2015;
+	Asus.price = 1500;
+	Asus.hardDiskMemory = 1000;
+	Asus.freeMemory = 950;
+	Asus.operationSystem = "Windows 8.1";
+	Asus.isNotebook = true;
+	Asus.brand = "Asus";
+	
+	Dell.year = 2010;
+	Dell.price = 599;
+	Dell.hardDiskMemory = 500;
+	Dell.freeMemory = 250;
+	Dell.operationSystem = "Linux";
+	Dell.isNotebook = false;
+	Dell.brand = "Dell";
+	
+	String newOperationSystem = "Windows 10";
+	Asus.changeOperationSystem(newOperationSystem);
+	
+	int memory = 150;
+	Dell.useMemory(memory);
+	
+	System.out.println("Computer Asus characteristics:");
+	Asus.printComputerElements("Asus");
+	Dell.printComputerElements("Dell");
+	
+	
+}
+}
