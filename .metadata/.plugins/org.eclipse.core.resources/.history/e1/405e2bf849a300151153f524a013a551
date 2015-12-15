@@ -1,0 +1,30 @@
+package Task_02;
+
+import java.util.Scanner;
+
+public class GSMDemo {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		GSM nexus4 = new GSM();
+		GSM xiaoMIRedMINote3 = new GSM();
+		
+		Call call = new Call();
+  	    call.priceForAMinute = scanner.nextDouble();
+		
+		
+//		System.out.println("Pease enter yout mobile number 08XXXXXXXX");
+		nexus4.insertSimCard("0884495554");
+//		System.out.println("Please enter the number you want to call: 08XXXXXXXX");
+		xiaoMIRedMINote3.insertSimCard("0885698979");
+		
+		 
+		nexus4.call(xiaoMIRedMINote3, 3);
+		
+		nexus4.printInfoForLastOutgoingCall();
+		xiaoMIRedMINote3.printInfoForLastIncomingCall();
+		
+		System.out.println(nexus4.getSumForCall());
+	}
+
+}

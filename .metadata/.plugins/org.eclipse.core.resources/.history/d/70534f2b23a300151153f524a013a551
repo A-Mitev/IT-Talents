@@ -1,0 +1,23 @@
+package Task_02;
+public class GSM {
+//	String model;
+//	boolean hasSimCard;
+//	String simMobileNumber;
+//	int outgoingCallDuration;
+//	Call lastIncomingCall;
+//	Call lastOutgoingCall;
+//	
+//	void insertSimCard(String simMobileNuber){
+//		if (simMobileNuber != null){
+//			if ((simMobileNuber.length() == 10) && (simMobileNuber.substring(0, 2) == "08")){
+//				
+//			}
+//		}
+	
+	public static void main(String[] args) {
+		String number = "0885457845";
+		String newNumber = number.substring(0, 2);
+		System.out.println(newNumber);
+	}
+	}
+

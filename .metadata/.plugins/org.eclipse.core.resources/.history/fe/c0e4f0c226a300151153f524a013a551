@@ -1,0 +1,9 @@
+package Task_02;
+public class Call {
+	
+	double priceForAMinute;
+	GSM caller;
+	GSM receiver;
+	int duration;
+	
+}

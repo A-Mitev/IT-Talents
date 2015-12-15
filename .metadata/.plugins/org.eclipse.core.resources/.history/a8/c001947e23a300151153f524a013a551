@@ -1,0 +1,66 @@
+package Task_02;
+public class GSM {
+	String model;
+	boolean hasSimCard;
+	String simMobileNumber;
+	int outgoingCallDuration;
+	Call lastIncomingCall;
+	Call lastOutgoingCall;
+
+	void insertSimCard(String simMobileNuber) {
+		if (simMobileNuber != null) {
+			if ((simMobileNuber.length() == 10) && 
+					(simMobileNuber.substring(0, 2) == "08")) {
+				this.simMobileNumber = simMobileNuber;
+				this.hasSimCard = true;
+			}
+		}
+	}
+	
+	void removeSimCard(){
+		this.hasSimCard = false;
+		this.simMobileNumber = "";
+	}
+	
+	void call(GSM receiver, int duration){
+		if((receiver != null) && (receiver.hasSimCard)){
+			if (duration >= 0 && duration <= 60){
+				if (this.hasSimCard &&
+						!this.simMobileNumber.equals(receiver.simMobileNumber)){
+					if(this != receiver){
+						Call newCall = new Call();
+						newCall.caller = this;
+						newCall.receiver = receiver;
+						newCall.duration = duration;
+						
+						this.lastOutgoingCall = newCall;
+						receiver.lastIncomingCall = newCall;
+						this.outgoingCallDuration += duration;
+					}
+				}
+			}
+		}
+	}
+	double getSumForCall(){
+		if(lastOutgoingCall == null){
+			return 0.0;
+		}
+		return this.outgoingCallDuration * this.lastOutgoingCall.priceForAMinute;
+	}
+	
+	void printInfoForLastIncomingCall(){
+		System.out.println(this.lastIncomingCall.caller.simMobileNumber +
+				" se obazda na " 
+				+ this.lastIncomingCall.receiver.simMobileNumber +
+				" za tolkova vreme"
+				+ this.lastIncomingCall.duration);
+	}
+	
+	void printInfoForLastOutgoingCall(){
+		System.out.println(this.lastOutgoingCall.caller.simMobileNumber +
+				" se obazda na " 
+				+ this.lastOutgoingCall.receiver.simMobileNumber +
+				" za tolkova vreme"
+				+ this.lastOutgoingCall.duration);
+	}
+}

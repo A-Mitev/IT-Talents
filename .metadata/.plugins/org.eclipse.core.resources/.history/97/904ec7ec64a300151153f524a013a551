@@ -1,0 +1,24 @@
+package Task_02;
+public class Call {
+	
+	private double priceForAMinute;
+	GSM caller;
+	GSM receiver;
+	int duration;
+	
+	
+	public double getPriceForAMinute() {
+		return priceForAMinute;
+	}
+
+	public void setPriceForAMinute(double priceForAMinute) {
+		this.priceForAMinute = priceForAMinute;
+	}
+
+	
+	
+	Call(double price){
+		this.priceForAMinute = price;
+	}
+	
+}
