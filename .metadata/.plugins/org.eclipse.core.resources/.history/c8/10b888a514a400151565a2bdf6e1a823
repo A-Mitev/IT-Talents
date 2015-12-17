@@ -1,0 +1,25 @@
+package Constructors_HomeW_Task_2;
+public class Student {
+	
+	String name;
+	String subject;
+	double grade;
+	int yearInCollege;
+	int age;
+	boolean isDegree;
+	double money;
+	
+	Student(){
+		this.grade = 4.0;
+		this.yearInCollege = 1;
+		this.isDegree = false;
+		this.money = 0;
+	}
+	
+	Student(String name, String subject, int age){
+		this();
+		this.name = name;
+		this.subject = subject;
+		this.age = age;
+	}
+}
