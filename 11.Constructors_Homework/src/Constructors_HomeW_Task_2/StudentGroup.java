@@ -1,7 +1,7 @@
 package Constructors_HomeW_Task_2;
 public class StudentGroup {
 	
-	String groupSubject;
+	String groupSubject= "";
 	Student[] students;
 	int freePlaces;
 	
@@ -16,7 +16,7 @@ public class StudentGroup {
 	}
 	
 	void addStudent(Student s){
-		if (this.groupSubject.equals(s.subject) && (this.freePlaces > 0)){
+		if (s.subject.equals(this.groupSubject) && (this.freePlaces > 0)){
 			this.students[students.length-this.freePlaces] = s;
 			this.freePlaces--;
 		}
@@ -30,7 +30,7 @@ public class StudentGroup {
 	String theBestStudent(Student[] students){
 		double maxGrade = 0;
 		String nameOfTheBest = "";
-		for (int index = 0; index < students.length; index++) {
+		for (int index = 0; index < students.length - freePlaces; index++) {
 			if (students[index].grade > maxGrade){
 				maxGrade = students[index].grade;
 				nameOfTheBest = students[index].name;
@@ -44,11 +44,11 @@ public class StudentGroup {
 			System.out.println(" Students group is empty!");
 			return;
 		}
-		for (int index = 0; index < students.length; index++) {
+		for (int index = 0; index < students.length-freePlaces; index++) {
 			System.out.println("Name - " + students[index].name + "\n" + "Subject - " + students[index].subject + "\n" +
 					"Grade - " + students[index].grade + "\n" + "Year in college - " + students[index].yearInCollege + "\n" +
 					"Age - " + students[index].age + "\n" + "Is degree - " + students[index].isDegree + "\n" +
-					"Money - " + students[index].money);
+					"Money - " + students[index].money + "\n" + "---------"  );
 		}
 	}
 }

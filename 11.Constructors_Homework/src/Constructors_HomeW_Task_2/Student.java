@@ -25,14 +25,15 @@ public class Student {
 	}
 
 	void upYear() {
+		if (this.yearInCollege >= 4) {
+			this.isDegree = true;
+		}
 		if (!isDegree) {
 			this.yearInCollege++;
 		} else {
-			System.out.println("The student is gratiated");
+			System.out.println(this.name + " is graduated");
 		}
-		if (this.yearInCollege > 4) {
-			this.isDegree = true;
-		}
+		
 	}
 	
 	double receiveScholarship(double min, double amount){
