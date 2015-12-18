@@ -1,0 +1,14 @@
+package Encapsulation_Homework;
+
+public class EmployeeTaskDemo {
+	public static void main(String[] args) {
+		
+		Employee stanoy = new Employee("");
+
+		Task cooking = new Task("", 6);
+		stanoy.setCurrentTask(cooking);
+		stanoy.setHoursLeft(5);
+		stanoy.work();
+		stanoy.showReport();
+	}
+}

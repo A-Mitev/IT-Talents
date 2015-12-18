@@ -1,0 +1,34 @@
+package Encapsulation_Homework;
+
+import java.util.Scanner;
+
+public class EmployeeTaskDemo {
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		Employee stanoy = new Employee("Stanoy");
+
+		Task cooking = new Task("Cooing", 2);
+		stanoy.setCurrentTask(cooking);
+		stanoy.setHoursLeft(8);
+		stanoy.work();
+		stanoy.showReport();
+
+//		// alex shte dovurshi zadachata
+//		alex.setCurrentTask(homework);
+//
+//		System.out.print("Enter the length of the workday for " + alex.getName() + ":");
+//		alex.setHoursLeft(sc.nextInt());
+//
+//		alex.work();
+//
+//		alex.showReport();
+//
+//		// dopulnitelna proverka dali raboti vsihko izrqdno
+//		System.out.print("Enter the length of the workday for " + spas.getName() + ":");
+	//	spas.setHoursLeft(sc.nextInt());
+//
+
+	}
+
+}

@@ -6,9 +6,11 @@
 <fullyQualifiedTypeName name="Task_02.GSM"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Task_02.Call"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
 <fullyQualifiedTypeName name="Task_02.GSMDemo"/>
-<fullyQualifiedTypeName name="Constructors_HomeW_Task_2.StudentGroup"/>
 <fullyQualifiedTypeName name="Constructors_HomeW_Task_2.Student"/>
+<fullyQualifiedTypeName name="Constructors_HomeW_Task_2.StudentGroup"/>
+<fullyQualifiedTypeName name="Encapsulation_Homework.Employee"/>
+<fullyQualifiedTypeName name="Encapsulation_Homework.Task"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
