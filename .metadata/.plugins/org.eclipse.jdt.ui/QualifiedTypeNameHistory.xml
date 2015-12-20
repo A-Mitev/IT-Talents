@@ -15,4 +15,7 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="RandomTests.Car"/>
 <fullyQualifiedTypeName name="RandomTests.Person"/>
+<fullyQualifiedTypeName name="Random_Tests_OOP.Person"/>
+<fullyQualifiedTypeName name="Random_Tests_OOP2.Car"/>
+<fullyQualifiedTypeName name="Random_Tests_OOP.Car"/>
 </qualifiedTypeNameHistroy>

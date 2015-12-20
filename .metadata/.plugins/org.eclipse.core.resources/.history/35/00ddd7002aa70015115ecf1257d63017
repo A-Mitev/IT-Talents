@@ -2,7 +2,7 @@ package Random_Tests_OOP;
 
 public class Car {
 	String model;
-	static int maxSpeed;
+	int maxSpeed;
 	int gears;
 	String color;
 	boolean hasOwner;

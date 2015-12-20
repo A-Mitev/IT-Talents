@@ -2,7 +2,7 @@ package Random_Tests_OOP;
 
 public class Car {
 	String model;
-	static int maxSpeed;
+	int maxSpeed;
 	int gears;
 	String color;
 	boolean hasOwner;
@@ -11,12 +11,12 @@ public class Car {
 	double price;
 
 	Car(){
-		this("", true, "");
+		setModel(model);
+		setColor(color);
 	}
 	
 	Car(String model, boolean isSportCar, String color) {
-		setModel(model);
-		setColor(color);
+		this();
 		this.isSportCar = isSportCar;
 	}
 

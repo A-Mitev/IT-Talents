@@ -2,21 +2,15 @@ package Random_Tests_OOP;
 
 public class CarDemo {
 	public static void main(String[] args) {
-		
-		
 
 		Car da = new Car();
-		//da.printCarDetails(da);
-		
-		Car ne = new Car("", true, "");
-		//ne.printCarDetails(ne);
+		da.printCarDetails(da);
 		Car skoda = new Car("", true, "silver");
-		Car audi = new Car("Audi", true, "red");
-		
+		Car audi = new Car("Audi", false, "red");
 		Car trabi = new Car();
 		trabi.model = "Trabi";
 		
-		Car.maxSpeed = 220;
+		skoda.maxSpeed = 220;
 		skoda.gears = 5;
 		
 		Person alex = new Person();
@@ -37,11 +31,11 @@ public class CarDemo {
 		audi.hasOwner = true;
 		
 		//alex.printPErsonDetails(alex);
-	    audi.printCarDetails(audi);
+	    //audi.printCarDetails(audi);
 		
 
-		//skoda.hasOwner = true;
-	    //skoda.printOwnerDetails(alex);
+		skoda.hasOwner = true;
+	    skoda.printOwnerDetails(alex);
 		
 		//trabi.printCarDetails(trabi);
 	}

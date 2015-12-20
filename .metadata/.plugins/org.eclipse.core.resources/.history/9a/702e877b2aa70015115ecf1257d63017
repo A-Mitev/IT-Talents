@@ -16,7 +16,7 @@ public class CarDemo {
 		Car trabi = new Car();
 		trabi.model = "Trabi";
 		
-		Car.maxSpeed = 220;
+		skoda.maxSpeed = 220;
 		skoda.gears = 5;
 		
 		Person alex = new Person();

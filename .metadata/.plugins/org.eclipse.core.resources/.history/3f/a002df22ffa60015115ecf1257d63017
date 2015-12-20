@@ -11,12 +11,11 @@ public class CarDemo {
 		Car ne = new Car("", true, "");
 		//ne.printCarDetails(ne);
 		Car skoda = new Car("", true, "silver");
-		Car audi = new Car("Audi", true, "red");
-		
+		Car audi = new Car("Audi", false, "red");
 		Car trabi = new Car();
 		trabi.model = "Trabi";
 		
-		Car.maxSpeed = 220;
+		skoda.maxSpeed = 220;
 		skoda.gears = 5;
 		
 		Person alex = new Person();
