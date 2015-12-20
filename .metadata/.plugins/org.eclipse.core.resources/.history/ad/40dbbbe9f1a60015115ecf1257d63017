@@ -1,0 +1,6 @@
+package Random_Tests_OOP2;
+public class Demo {
+	Car audi =  new Car("Audi");
+	
+
+}

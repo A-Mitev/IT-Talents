@@ -26,7 +26,7 @@ public class Car {
 	}
 
 	public void setModel(String model) {
-		if (model != null && !model.equals("")) {
+		if (model != null && model != "") {
 			this.model = model;
 		} else {
 			this.model = "Model not confirmed";
@@ -38,7 +38,7 @@ public class Car {
 	}
 
 	public void setColor(String color) {
-		if (color != null && !color.equals("")) {
+		if (color != null && color != "") {
 			this.color = color;
 		} else {
 			this.color = "COlor is not confirmed";

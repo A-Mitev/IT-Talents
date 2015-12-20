@@ -38,7 +38,7 @@ public class Car {
 	}
 
 	public void setColor(String color) {
-		if (color != null && !color.equals("")) {
+		if (color != null && color != "") {
 			this.color = color;
 		} else {
 			this.color = "COlor is not confirmed";
