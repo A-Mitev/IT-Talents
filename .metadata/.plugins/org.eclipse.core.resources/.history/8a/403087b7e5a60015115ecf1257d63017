@@ -1,0 +1,37 @@
+package Random_Tests_OOP;
+
+public class CarDemo {
+	public static void main(String[] args) {
+
+		Car skoda = new Car("Skoda", true, "silver");
+		Car audi = new Car("Audi", false, "red");
+		
+		skoda.maxSpeed = 220;
+		skoda.gears = 5;
+		
+		Person alex = new Person();
+		alex.name = "Alex";
+		alex.age = 29;
+		
+		skoda.owner = alex;
+		
+		Person mitko = new Person();
+		mitko.name = "Miteko";
+		mitko.age = 33;
+		audi.owner = mitko;
+		
+		Person slavi = new Person();
+		slavi.name = "Slavi";
+		slavi.age = 44;
+		alex.friend = slavi;
+		
+		slavi.printPErsonDetails(alex.friend);
+		
+		
+		
+		//audi.printCarDetails(audi);
+		
+		
+		//skoda.printOwnerDetails(alex);
+	}
+}

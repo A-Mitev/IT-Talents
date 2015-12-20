@@ -1,0 +1,8 @@
+package Random_Tests_OOP;
+
+public class Person {
+	String name;
+	int age;
+	
+	Person friend;
+}

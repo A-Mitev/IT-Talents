@@ -1,0 +1,8 @@
+package RandomTests;
+public class Car {
+	String model;
+	int maxSpeed;
+	int gears;
+	String color;
+	Person owner;
+}

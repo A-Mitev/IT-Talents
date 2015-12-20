@@ -1,0 +1,18 @@
+package RandomTests;
+public class Car {
+	String model;
+	int maxSpeed;
+	int gears;
+	String color;
+	Person owner;
+	
+	void printDetails(Person s){
+		System.out.println(s.name);
+		System.out.println(s.age);
+		System.out.println(this.model);
+		System.out.println(this.color);
+		System.out.println(this.maxSpeed);
+		System.out.println(this.gears);
+		
+	}
+}

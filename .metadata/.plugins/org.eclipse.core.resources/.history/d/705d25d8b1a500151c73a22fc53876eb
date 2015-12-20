@@ -1,0 +1,22 @@
+package RandomTests;
+
+public class CarDemo {
+	public static void main(String[] args) {
+
+		Car skoda = new Car();
+		Car audi = new Car();
+		
+		skoda.model = "Fabia";
+		skoda.color = "silver";
+		skoda.maxSpeed = 220;
+		skoda.gears = 5;
+		
+		Person alex = new Person();
+		alex.name = "ALex";
+		alex.age = 29;
+		
+		skoda.owner = alex;
+		
+		skoda.printDetails(alex);
+	}
+}
