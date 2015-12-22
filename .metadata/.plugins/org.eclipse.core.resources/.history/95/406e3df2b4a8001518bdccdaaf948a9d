@@ -1,0 +1,35 @@
+package Inheritance_HW;
+
+public class Demo{
+
+	public static void main(String[] args) {
+
+		Person[] peoples = new Person[3];
+
+		Student alex = new Student("Alex", 22, true, 4.5);
+		Employee pesho = new Employee("Pesho", 32, true, 999, 5);
+		Employee gosho = new Employee("Gosho", 33, true, 50, 3);
+		
+	
+		
+		
+
+		peoples[0] = student;
+		peoples[1] = employee;
+		peoples[2] = gosho;
+		
+		
+		for (int index = 0; index < peoples.length; index++) {
+			if (peoples[index] instanceof Student) {
+				student.showStudentInfo(peoples[index]);
+			}
+			System.out.println();
+			if(peoples[index] instanceof Employee){
+				student.showStudentInfo(peoples[index]); 
+			}
+			System.out.println();
+		}
+
+	}
+
+}

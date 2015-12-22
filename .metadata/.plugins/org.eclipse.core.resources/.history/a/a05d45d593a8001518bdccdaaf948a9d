@@ -1,0 +1,27 @@
+package Inheritance_HW;
+public class Employee extends Person {
+	
+	private double daySalary;
+
+	Employee(String name, int age, boolean isMale, double daySalary) {
+		super(name, age, isMale);
+		setDaySalary(daySalary);
+	}
+
+
+	public double getDaySalary() {
+		return daySalary;
+	}
+
+	public void setDaySalary(double daySalary) {
+		if(daySalary > 0){
+		this.daySalary = daySalary;
+		} else {
+			this.daySalary = 0;
+		}
+	}
+	
+	
+
+	
+}

@@ -1,0 +1,62 @@
+package Inheritance_HW;
+
+public class Employee extends Person {
+
+	private double daySalary;
+	private double hours;
+
+	Employee(String name, int age, boolean isMale, double daySalary, double hours) {
+		super(name, age, isMale);
+		setDaySalary(daySalary);
+		setHours(hours);
+	}
+
+	public double getDaySalary() {
+		return daySalary;
+	}
+
+	public void setDaySalary(double daySalary) {
+		if (daySalary > 0) {
+			this.daySalary = daySalary;
+		} else {
+			this.daySalary = 0;
+		}
+	}
+
+	public double getHours() {
+		return hours;
+	}
+
+	public void setHours(double hours) {
+		if (hours > 0) {
+			this.hours = hours;
+		} else {
+			this.hours = 0;
+		}
+	}
+
+	double calculateOvertime(double hours) {
+		double additionalPayment = 0;
+		double currentPaymentPerHour = this.getDaySalary() / 8;
+
+		if (this.getAge() < 18) {
+			additionalPayment = 0;
+		} else {
+
+			if (this.getHours() > 8) {
+				additionalPayment = ((this.getHours() - 8) * currentPaymentPerHour) * 1.5;
+			}
+		}
+
+		if (additionalPayment > 0) {
+			this.getDaySalary() += additionalPayment;
+		}
+		return this.daySalary;
+	}
+	
+	void showEmployeeInfo(){
+		this.showPersonInfo();
+		System.out.println("Salary - " + this.calculateOvertime(hours));
+	}
+
+}

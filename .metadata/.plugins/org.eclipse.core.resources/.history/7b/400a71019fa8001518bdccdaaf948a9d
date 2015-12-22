@@ -1,0 +1,66 @@
+package CarDemo;
+
+public class Car {
+	private String model;
+	private int maxSpeed;
+	private int currentSpeed;
+
+//	Car() {
+//		this.setModel(model);
+//		this.setCurrentSpeed(currentSpeed);
+//		this.setMaxSpeed(maxSpeed);
+//	}
+//
+//	Car(String model, int maxSpeed, int currentSpeed) {
+//		this();
+//	}
+	
+	Car() {
+		this("", 0, 0);
+	}
+
+	Car(String model, int maxSpeed, int currentSpeed) {
+		this.setModel(model);
+		this.setCurrentSpeed(currentSpeed);
+		this.setMaxSpeed(maxSpeed);
+	}
+	
+	
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		if (model != null && !model.equals("")) {
+			this.model = model;
+		} else {
+			this.model = "Model is not defined correctly";
+		}
+	}
+
+	public int getMaxSpeed() {
+		return maxSpeed;
+	}
+
+	public void setMaxSpeed(int maxSpeed) {
+		if(maxSpeed > 0){
+		this.maxSpeed = maxSpeed;
+		} else {
+			this.maxSpeed = 0;
+		}
+	}
+
+	public int getCurrentSpeed() {
+		return currentSpeed;
+	}
+
+	public void setCurrentSpeed(int currentSpeed) {
+		if(currentSpeed >= 0){
+		this.currentSpeed = currentSpeed;
+		} else {
+			currentSpeed = 0;
+		}
+	}
+
+}
