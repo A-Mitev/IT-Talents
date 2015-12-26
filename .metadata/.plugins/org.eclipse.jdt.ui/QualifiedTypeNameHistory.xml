@@ -18,4 +18,10 @@
 <fullyQualifiedTypeName name="Random_Tests_OOP.Person"/>
 <fullyQualifiedTypeName name="Random_Tests_OOP2.Car"/>
 <fullyQualifiedTypeName name="Random_Tests_OOP.Car"/>
+<fullyQualifiedTypeName name="Inheritance_HW.Employee"/>
+<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.nio.channels.ShutdownChannelGroupException"/>
+<fullyQualifiedTypeName name="Inheritance_HW.Student"/>
+<fullyQualifiedTypeName name="Inheritance_HW.Person"/>
 </qualifiedTypeNameHistroy>

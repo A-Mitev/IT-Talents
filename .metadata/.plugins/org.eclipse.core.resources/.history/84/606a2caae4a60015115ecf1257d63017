@@ -1,6 +1,0 @@
-package RandomTests;
-
-public class Person {
-	String name;
-	int age;
-}
