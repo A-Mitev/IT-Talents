@@ -1,10 +1,7 @@
 package Inheritance_HW;
 
 public class Student extends Person {
-	
-	// added constants
 
-	private static final int MAXIMUM_SCORE = 6;
 	private static final int MINIM_VALUE_FOR_SCORE = 2;
 	private double score;
 
@@ -22,7 +19,7 @@ public class Student extends Person {
 	}
 
 	public void setScore(double score) {
-		if (score >= MINIM_VALUE_FOR_SCORE && score <= MAXIMUM_SCORE) {
+		if (score >= MINIM_VALUE_FOR_SCORE && score <= 6) {
 			this.score = score;
 		} else {
 			System.out.println("Wrong value for score.");

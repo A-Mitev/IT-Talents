@@ -1,8 +1,6 @@
 package Inheritance_HW;
 
 public class Student extends Person {
-	
-	// added constants
 
 	private static final int MAXIMUM_SCORE = 6;
 	private static final int MINIM_VALUE_FOR_SCORE = 2;

@@ -2,8 +2,6 @@ package Inheritance_HW;
 
 public class Employee extends Person {
 
-	// added constants
-	private static final int MAXIMUM_ALLOWED_WORKING_HOURS = 8;
 	private static final double OVERTIME_BOUNS_PAYMENT = 1.5;
 	private static final int MINIMUN_AGE_FOR_BONUS_PAYMENT = 18;
 	private double daySalary;
@@ -31,7 +29,7 @@ public class Employee extends Person {
 			return 0;
 		}
 		double additionalPayment = 0;
-		double currentPaymentPerHour = this.getDaySalary() / MAXIMUM_ALLOWED_WORKING_HOURS;
+		double currentPaymentPerHour = this.getDaySalary() / 8;
 
 		if (this.getAge() < MINIMUN_AGE_FOR_BONUS_PAYMENT) {
 			return additionalPayment;
