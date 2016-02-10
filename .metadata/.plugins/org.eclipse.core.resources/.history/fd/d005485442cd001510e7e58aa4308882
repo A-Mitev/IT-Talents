@@ -1,0 +1,30 @@
+package Collection;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
+public class ArrayListTest {
+	public static void main(String[] args) {
+		ArrayList<String> pokupki = new ArrayList<>();
+		
+		ArrayList<Rakiq> kasetka = new ArrayList<Rakiq>();
+		
+		kasetka.add(new Rakiq(25, 15, "mastika"));
+		kasetka.add(new Rakiq(45, 21, "Turnovo"));
+		kasetka.add(new Rakiq(11, 22, "ot djanki"));
+		
+		pokupki.add("domati");
+		pokupki.add("bidoni");
+		pokupki.contains("domati");
+		pokupki.add(2, "morkovi");
+		
+		
+		
+		for(String pokupka : pokupki){
+			System.out.println(pokupka);
+		}
+		System.out.println(pokupki.contains("domati"));
+		
+
+	}
+}

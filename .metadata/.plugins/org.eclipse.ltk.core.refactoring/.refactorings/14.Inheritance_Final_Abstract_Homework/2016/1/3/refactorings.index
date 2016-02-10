@@ -1,0 +1,5 @@
+1452583494510	Rename package 'Homework_Task_Employee_Part_2'
+1452583815369	Extract constant 'WRONG_VALUE_FOR_WORKING_HOURS'
+1452590791743	Extract constant 'MIN_WORKING_HOURS'
+1452591894008	Extract constant 'MAX_WORK_HOURS_FOR_DAY'
+1452714749186	Delete elements

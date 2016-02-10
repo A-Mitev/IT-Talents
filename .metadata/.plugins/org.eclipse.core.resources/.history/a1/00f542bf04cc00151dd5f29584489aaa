@@ -1,0 +1,13 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class ArrayListTest {
+	public static void main(String[] args) {
+		ArrayList<String> pokupki = new ArrayList<>();
+		
+		pokupki.add("domati");
+		System.out.println(pokupki);
+
+	}
+}

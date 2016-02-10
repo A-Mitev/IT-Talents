@@ -2,6 +2,8 @@ package Inheritance_HW;
 
 public class Demo {
 
+	private static final int HOURS_FOR_BONUS_PAYMENT = 2;
+
 	public static void main(String[] args) {
 
 		Person[] peoples = new Person[10];
@@ -51,7 +53,7 @@ public class Demo {
 			if (peoples[index] instanceof Employee) {
 				System.out.println(((Employee) peoples[index]).getName()
 						+ " is Employee. His additional payment for two hours overtime is -  "
-						+ ((Employee) peoples[index]).calculateOvertime(2));
+						+ ((Employee) peoples[index]).calculateOvertime(HOURS_FOR_BONUS_PAYMENT));
 			}
 		}
 

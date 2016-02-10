@@ -1,0 +1,49 @@
+package Collection;
+
+public class Rakiq {
+	
+	private int gradus;
+	private int kolichestvo;
+	private String marka;
+	
+	public Rakiq(int gradus, int kolichestvo, String marka) {
+		this.gradus = gradus;
+		this.kolichestvo = kolichestvo;
+		this.marka = marka;
+	}
+	
+	
+	public String getMarka() {
+		return marka;
+	}
+
+
+	public void setGradus(int gradus) {
+		if(gradus > 0 && gradus < 99){
+		this.gradus = gradus;
+		}
+	}
+	
+	public void setKolichestvo(int kolichestvo) {
+		if (kolichestvo> 0)
+		this.kolichestvo = kolichestvo;
+	}
+	public void setMarka(String marka) {
+		if(marka != null && !marka.equals(""))
+		this.marka = marka;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+	if(!(obj instanceof Rakiq)){
+		return false;
+	}
+	
+	Rakiq secondRakia = (Rakiq)obj;
+	
+	return secondRakia.gradus == this.gradus && secondRakia.marka.equals(this.marka);
+	}
+	
+	
+
+}

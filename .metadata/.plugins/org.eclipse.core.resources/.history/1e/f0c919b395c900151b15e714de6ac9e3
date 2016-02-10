@@ -1,0 +1,28 @@
+package Exceptions;
+
+public class testException {
+
+	
+	static void printArrayInfo(int[] array){
+		try{
+		System.out.println(array.length);
+		System.out.println(array[3]);
+		System.out.println("Printiram neshto si");
+		} catch (IndexOutOfBoundsException out){
+			System.out.println("nqma tolkova elementi");
+		} catch (NullPointerException nul){
+			System.out.println("OPaaaa ej go nulla");
+			nul.printStackTrace();
+		}
+		
+	}
+	
+	public static void main(String[] args){
+		try{
+		int[] array = null;
+		printArrayInfo(array);
+		} catch (Exception nul){
+			System.out.println("Hvanah null pointera! ");
+		}
+	}
+}

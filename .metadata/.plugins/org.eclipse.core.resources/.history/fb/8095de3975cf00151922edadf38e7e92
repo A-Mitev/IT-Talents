@@ -1,0 +1,34 @@
+package Homeworks;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Task2Letters {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter some text: ");
+		StringBuilder sBuilder = new StringBuilder();
+		while(scanner.hasNext()){
+			sBuilder.append(scanner.next());
+		}
+		
+		String[] userInput = sBuilder.toString().toLowerCase().replaceAll("[^a-z]", "").split("");
+		
+		System.out.println(Arrays.toString(userInput));
+		Map<String, Integer> letterBag = new HashMap<>();
+		for (String string : userInput) {
+			if (!letterBag.containsKey(string)) {
+				letterBag.put(string, 1);
+			} else {
+				letterBag.put(string, letterBag.get(string) + 1);
+			}
+		}
+		
+		
+		
+		
+	}
+}

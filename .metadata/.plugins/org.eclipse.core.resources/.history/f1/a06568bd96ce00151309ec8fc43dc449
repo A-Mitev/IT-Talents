@@ -1,0 +1,22 @@
+package Collection;
+
+import java.util.HashSet;
+
+public class HashTableTest {
+
+	public static void main(String[] args) {
+		Koli audi = new Koli(4, "diesel", 123, "Audi");
+		Koli bmw = new Koli(8, "benzin", 125, "Bmw");
+		Koli skoda = new Koli(2, "gas", 888, "Skoda");
+		
+		HashSet<Koli> garaz = new HashSet<Koli>();
+		
+		garaz.add(skoda);
+		garaz.add(bmw);
+		garaz.add(audi);
+		
+		for(Koli car: garaz){
+			System.out.println(car);
+		}
+	}
+}
