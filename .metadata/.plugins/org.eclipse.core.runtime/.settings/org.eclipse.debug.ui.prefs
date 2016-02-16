@@ -1,3 +1,5 @@
+Console.highWaterMark=808000
+Console.lowWaterMark=800000
 Variables.detail.orientation=Variables.detail.orientation.auto
 eclipse.preferences.version=1
 org.eclipse.debug.ui.MemoryHistoryKnownColor=235,235,235

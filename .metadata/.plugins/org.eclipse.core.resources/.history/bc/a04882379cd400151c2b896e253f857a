@@ -1,0 +1,9 @@
+package WordCountingTask;
+
+public class WordCounting {
+
+	public WordCounting() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
