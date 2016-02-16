@@ -1,0 +1,19 @@
+package Task3Scheduler;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Scheduler {
+	
+	public void push(ITask task){
+		if(task != null && !task.equals("")){
+			someTasks.add(task);
+		}
+	}
+	
+	public static Queue<ITask> someTasks = new LinkedList<ITask>();
+	
+	
+	
+
+	
+}

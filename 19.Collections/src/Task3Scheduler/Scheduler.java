@@ -5,49 +5,33 @@ import java.util.Queue;
 
 public class Scheduler {
 
-	private static Scheduler scheduler;
-	private Queue<ITask> queue;
-
-	private Scheduler() {
-		scheduler = this;
-		queue = new LinkedList<>();
-	}
-
-	public void pushTask(Task task) {
+	public void push(ITask task) {
 		if (task != null) {
-			this.queue.add(task);
+			someTasks.add(task);
 		}
 	}
 
-	public static void createScheduler() {
-		if (scheduler != null) {
-			new Scheduler();
-		}
-	}
+	public static Queue<ITask> someTasks = new LinkedList<ITask>();
 
-	public static Scheduler getScheduler() {
-		if (scheduler != null) {
-			new Scheduler();
-		}
-		return scheduler;
-	}
+	public static void main(String[] args) throws WrongWorkEntryException {
 
-	public static void main(String[] args) {
+		Scheduler scheduler = new Scheduler();
 
-		Scheduler scheduler = getScheduler();
-		ITask[] tasks = new ITask[4];
+		ITask firstTask = new Task("Da izveda kucheto");
+		ITask secondTask = new Task("Da nahranq kucheto");
+		ITask thirdTask = new Task("Da si napravq kafe");
+		ITask fourthTask = new Task("Da si vzema chadur");
+		ITask fifthTask = new Task("Da zaklucha vratada");
 
-		for (int index = 0; index < tasks.length; index++) {
-			int whichTask = (int) (Math.random() * 4) + 1;
-			tasks[index] = new Task("Task number " + index);
-			scheduler.queue.add(tasks[index]);
-			System.out.println("Input: " + tasks[index].toString());
-		}
+		scheduler.push(firstTask);
+		scheduler.push(secondTask);
+		scheduler.push(thirdTask);
+		scheduler.push(thirdTask);
+		scheduler.push(fourthTask);
+		scheduler.push(fifthTask);
 
-		System.out.println();
-		while (!scheduler.queue.isEmpty()) {
-			scheduler.queue.poll().doWork();
-
+		for (ITask task : someTasks) {
+			task.doWork();
 		}
 	}
 }

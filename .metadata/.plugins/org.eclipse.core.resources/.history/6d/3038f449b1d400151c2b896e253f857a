@@ -1,0 +1,59 @@
+package Task3Scheduler;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Scheduler {
+
+	private static Scheduler scheduler;
+
+	private Scheduler() {
+		setScheduler(scheduler);
+	}
+
+	public static Scheduler getScheduler() {
+		return scheduler;
+	}
+
+	// tuk ne sum siguren dali e pravilno. Ako veche ima da izpolzvame tekushtiq
+	// , ako nqma da napravim nov.
+	public static void setScheduler(Scheduler scheduler) {
+		if (scheduler != null) {
+			Scheduler.scheduler = scheduler;
+		} else {
+			new Scheduler();
+		}
+	}
+
+	public void push(ITask task) {
+		if (task != null && !task.equals("")) {
+			someTasks.add(task);
+		}
+	}
+
+	public static Queue<ITask> someTasks = new LinkedList<ITask>();
+
+	public static void main(String[] args) throws WrongWorkEntryException {
+		
+		Scheduler scheduler = getScheduler();
+		
+		ITask firstTask = new Task("Da izveda kucheto");
+		ITask secondTask = new Task("Da nahranq kucheto");
+		ITask thirdTask = new Task("Da si napravq kafe");
+		ITask fourthTask = new Task("Da si vzema chadur");
+		ITask fifthTask = new Task("Da zaklucha vratada");
+		
+		scheduler.push(firstTask);
+		scheduler.push(secondTask);
+		scheduler.push(thirdTask);
+		scheduler.push(thirdTask);
+		scheduler.push(fourthTask);
+		scheduler.push(fifthTask);
+		
+		while(!someTasks.isEmpty()){
+			scheduler.someTasks.poll().doWork();
+		}
+
+	}
+
+}

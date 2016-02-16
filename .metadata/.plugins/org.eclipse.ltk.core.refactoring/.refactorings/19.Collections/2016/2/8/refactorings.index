@@ -7,3 +7,5 @@
 1455611387889	Rename field 'employees'
 1455620264969	Delete element
 1455620311602	Delete element
+1455626073625	Rename type 'WrongWorkEntryExceprion'
+1455626980445	Encapsulate field 'scheduler'

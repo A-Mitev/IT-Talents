@@ -1,0 +1,28 @@
+package Task3Scheduler;
+
+public class WrongWorkEntryException extends Exception {
+	
+	
+
+	private static final long serialVersionUID = -6009169667293013830L;
+
+	public WrongWorkEntryException() {
+	}
+
+	public WrongWorkEntryException(String arg0) {
+		super(arg0);
+	}
+
+	public WrongWorkEntryException(Throwable arg0) {
+		super(arg0);
+	}
+
+	public WrongWorkEntryException(String arg0, Throwable arg1) {
+		super(arg0, arg1);
+	}
+
+	public WrongWorkEntryException(String arg0, Throwable arg1, boolean arg2, boolean arg3) {
+		super(arg0, arg1, arg2, arg3);
+	}
+
+}

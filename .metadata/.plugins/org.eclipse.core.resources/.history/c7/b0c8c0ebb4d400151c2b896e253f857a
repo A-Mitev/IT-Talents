@@ -1,0 +1,44 @@
+package Task3Scheduler;
+
+public class Task implements ITask {
+
+	private String work;
+	
+	
+	
+	public Task(String work) throws WrongWorkEntryException {
+		setWork(work);
+	}
+
+	
+
+
+	//seter v kojto da si napravq proverka i da upraznq hvurlqneto na exception
+	public void setWork(String work) throws WrongWorkEntryException {
+		if(work != null && !work.equals("") && work.length() > 0){
+		this.work = work;
+		} else {
+			throw new WrongWorkEntryException("Invalid work entry!");
+		}
+	}
+
+
+
+	@Override
+	public void doWork() {
+		System.out.println(work);
+	}
+
+
+
+
+	@Override
+	public String toString() {
+		return "Task [work=" + work + "]";
+	}
+
+	
+
+	
+
+}
