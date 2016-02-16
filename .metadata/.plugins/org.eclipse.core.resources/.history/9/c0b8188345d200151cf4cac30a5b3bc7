@@ -1,0 +1,12 @@
+package ThreadsTest;
+
+public class Demo {
+	public static void main(String[] args) {
+		
+	Thread myThread2 = new Thread(new MyThread());
+	
+	myThread2.start();
+
+}
+
+}

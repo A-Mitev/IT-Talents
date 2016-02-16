@@ -1,0 +1,44 @@
+package CollectionTestKonservi;
+
+public class Konserva {
+	
+	private String proizvoditel;
+	private double cena;
+	private int gramaz;
+	private String sudurzanie;
+	public Konserva(String proizvoditel, double cena, int gramaz, String sudurzanie) {
+		setProizvoditel(proizvoditel);
+		setCena(cena);
+		setGramaz(gramaz);
+		setSudurzanie(sudurzanie);
+	}
+	public String getProizvoditel() {
+		return proizvoditel;
+	}
+	public double getCena() {
+		return cena;
+	}
+	public int getGramaz() {
+		return gramaz;
+	}
+	public String getSudurzanie() {
+		return sudurzanie;
+	}
+	public void setProizvoditel(String proizvoditel) {
+		this.proizvoditel = proizvoditel;
+	}
+	public void setCena(double cena) {
+		this.cena = cena;
+	}
+	public void setGramaz(int gramaz) {
+		this.gramaz = gramaz;
+	}
+	public void setSudurzanie(String sudurzanie) {
+		this.sudurzanie = sudurzanie;
+	}
+	
+	
+	
+	
+
+}

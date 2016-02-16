@@ -1,0 +1,7 @@
+1455548501461	Delete element
+1455610480058	Rename type 'CompanlyException'
+1455611142324	Extract interface 'ICOmpany'
+1455611164551	Rename type 'ICOmpany'
+1455611206403	Delete element
+1455611234266	Extract interface 'ICompany'
+1455611387889	Rename field 'employees'

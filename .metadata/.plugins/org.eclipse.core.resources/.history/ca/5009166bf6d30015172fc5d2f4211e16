@@ -1,0 +1,22 @@
+package CollectionTestKonservi;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class Demo {
+	public static void main(String[] args) {
+		
+		TreeSet<Konserva> maza = new TreeSet<Konserva>();
+		
+		maza.add(new Konserva("Olineza", 22, 250));
+		maza.add(new Konserva("Deroni", 30, 550));
+		maza.add(new Konserva("Vitosha", 19, 150));
+		maza.add(new Konserva("Storko", 35, 400));
+		
+		for(Iterator<Konserva> it = maza.iterator(); it.hasNext();){
+			System.out.println(it.next());
+		}
+		
+		
+	}
+}

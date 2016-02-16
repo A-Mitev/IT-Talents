@@ -1,0 +1,63 @@
+package CollectionTestKonservi;
+
+public class Konserva implements Comparable<Konserva> {
+
+	private String proizvoditel;
+	private int cena;
+	private int gramaz;
+	private String sudurzanie;
+
+	public Konserva(String proizvoditel, int cena, int gramaz, String sudurzanie) {
+		setProizvoditel(proizvoditel);
+		setCena(cena);
+		setGramaz(gramaz);
+		setSudurzanie(sudurzanie);
+	}
+
+	public String getProizvoditel() {
+		return proizvoditel;
+	}
+
+	public int getCena() {
+		return cena;
+	}
+
+	public int getGramaz() {
+		return gramaz;
+	}
+
+	public String getSudurzanie() {
+		return sudurzanie;
+	}
+
+	public void setProizvoditel(String proizvoditel) {
+		this.proizvoditel = proizvoditel;
+	}
+
+	public void setCena(int cena) {
+		this.cena = cena;
+	}
+
+	public void setGramaz(int gramaz) {
+		this.gramaz = gramaz;
+	}
+
+	public void setSudurzanie(String sudurzanie) {
+		this.sudurzanie = sudurzanie;
+	}
+
+	@Override
+	public int compareTo(Konserva otherKonserva) {
+		if(this.getCena() == otherKonserva.getCena()){
+			return 1;
+		}
+		return this.getCena() - otherKonserva.getCena();
+	}
+
+	@Override
+	public String toString() {
+		return "Konserva [proizvoditel=" + proizvoditel + ", cena=" + cena + ", gramaz=" + gramaz + ", sudurzanie="
+				+ sudurzanie + "]";
+	}
+
+}

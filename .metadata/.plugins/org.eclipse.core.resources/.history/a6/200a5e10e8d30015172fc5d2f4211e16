@@ -1,0 +1,15 @@
+package CollectionTestKonservi;
+
+import java.util.TreeSet;
+
+public class Demo {
+	public static void main(String[] args) {
+		TreeSet<Konserva> maza = new TreeSet<Konserva>();
+		maza.add(new Konserva("Olineza", 2.20, 200, "Lutenica"));
+		maza.add(new Konserva("Deroni", 2.15, 500, "DomashnaLutenica"));
+		maza.add(new Konserva("Heintz", 5.50, 200, "Ketchup"));
+		
+		
+	}
+
+}
