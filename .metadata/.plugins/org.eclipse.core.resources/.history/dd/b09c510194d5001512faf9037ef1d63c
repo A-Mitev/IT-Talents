@@ -1,0 +1,22 @@
+package ZapetajkiS5Threada;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class MyThread implements Runnable {
+	
+	private String textToAnalize;
+	static AtomicInteger count = new AtomicInteger(0);
+	
+	public MyThread(String textToAnalize) {
+		this.textToAnalize = textToAnalize;
+	}
+	
+	public void run() {
+		
+		String[] zapetajki = textToAnalize.replaceAll("^,", "").split(",");
+
+		int zapetajkiCount = zapetajki.length -1;
+		System.out.println("V tozi thread sa prebroeni - " + zapetajkiCount);
+		count.incrementAndGet();
+	}
+}

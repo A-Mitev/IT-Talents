@@ -1,0 +1,14 @@
+package ThreadsHomework;
+
+public class Zapetajki {
+
+	public static void main(String[] args){
+		
+		
+		Thread myZapetajkiThread = new Thread(new ZapetajkiThread());
+		myZapetajkiThread.start();
+		
+		
+
+	}
+}

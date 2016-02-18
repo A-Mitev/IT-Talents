@@ -1,0 +1,33 @@
+package ThreadsHomework;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Zapetajki {
+
+	
+
+
+	public static void main(String[] args) throws FileNotFoundException{
+		Scanner scanner =  new Scanner(new File("war_peace.txt"));
+		StringBuilder sb = new StringBuilder();
+
+		while (scanner.hasNextLine()) {
+			sb.append(scanner.nextLine());
+		}
+		
+		String[] zapetajki = sb.toString().replaceAll("^[,]", "").split(",");
+		
+		int count = 0;
+		for (int index = 0; index < zapetajki.length; index++) {
+			if(zapetajki[index].equals(",")){
+				count++;
+			}
+		}
+			System.out.println(count);
+			System.out.println(Arrays.toString(zapetajki));
+			
+	}
+}

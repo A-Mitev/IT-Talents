@@ -1,0 +1,9 @@
+package Random_Tests_OOP;
+
+public class Zapetajki {
+
+	public Zapetajki() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

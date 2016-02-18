@@ -1,0 +1,5 @@
+package ZapetajkiS5Threada;
+
+public class MyThread implements Runnable{
+
+}

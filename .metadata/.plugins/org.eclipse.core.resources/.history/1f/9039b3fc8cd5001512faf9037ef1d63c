@@ -1,0 +1,19 @@
+package ZapetajkiS5Threada;
+
+public class MyThread implements Runnable {
+	
+	private String textToAnalize;
+	
+	public MyThread(String textToAnalize) {
+		this.textToAnalize = textToAnalize;
+	}
+	
+	public void run() {
+		
+		String[] zapetajki = textToAnalize.replaceAll("^,", "").split(",");
+
+		int zapetajkiCount = zapetajki.length -1;
+		
+		System.out.println(zapetajkiCount);
+	}
+}

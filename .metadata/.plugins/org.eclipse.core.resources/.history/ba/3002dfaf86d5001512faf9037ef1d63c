@@ -1,0 +1,32 @@
+package ZapetajkiS5Threada;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Zapetajki {
+	
+		public static void main(String[] args) {
+			Scanner scanner = new Scanner(System.in);
+			try {
+				scanner = new Scanner(new File("war_peace.txt"));
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
+			StringBuilder builder = new StringBuilder();
+
+			while (scanner.hasNextLine()) {
+				builder.append(scanner.nextLine());
+			}
+			String allElements = builder.toString();
+			int fiveParts = allElements.length() /5;
+			System.out.println(allElements.length());
+			System.out.println(fiveParts);
+			
+//			Thread myThread = new Thread(new ZapetajkiThread());
+//			myThread.start();
+			
+		}
+	}
+
+	

@@ -1,0 +1,9 @@
+package ZapetajkiS5Threada;
+
+public class Zapetajki {
+
+	public Zapetajki() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

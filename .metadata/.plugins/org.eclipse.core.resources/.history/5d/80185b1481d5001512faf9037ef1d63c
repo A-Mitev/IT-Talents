@@ -1,0 +1,13 @@
+package ZapetajkiSEdinThread;
+
+import ThreadsTest.MyFirstThread;
+
+public class Zapetajki {
+	public static void main(String[] args) {
+		
+	Thread myThread = new Thread(new MyFirstThread());
+	
+	myThread.start();
+
+}
+}

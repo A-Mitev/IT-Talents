@@ -1,0 +1,18 @@
+1455638381686	Delete element
+1455638385535	Delete element
+1455638388779	Delete element
+1455638435272	Rename type 'MyThread'
+1455709880198	Rename local variable 'sc'
+1455715263536	Rename package 'ThreadsHomework'
+1455717837692	Rename local variable 'sc'
+1455718364260	Rename local variable 'sb'
+1455718481991	Delete element
+1455718684904	Rename local variable 'sb'
+1455719028032	Rename local variable 'myWorkers'
+1455720915838	Extract constant 'COUNT_OF_DIFFERENT_THREADS'
+1455726665403	Rename type 'Test'
+1455730238021	Delete element
+1455832301513	Rename local variable 'tes'
+1455832315532	Rename local variable 'thread2'
+1455832324055	Rename local variable 'thread22'
+1455832330623	Rename local variable 'thread222'

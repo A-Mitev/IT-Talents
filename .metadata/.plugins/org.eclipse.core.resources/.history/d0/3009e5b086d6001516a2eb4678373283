@@ -1,0 +1,27 @@
+package ZapetajkiS5Threada;
+
+public class MyThread implements Runnable {
+
+	 static int zapetajkiCount;
+	 private volatile int value;
+	 
+	private String textToAnalize;
+
+	public MyThread(String textToAnalize) {
+		this.textToAnalize = textToAnalize;
+	}
+
+	public void run() {
+
+		String[] zapetajki = textToAnalize.replaceAll("^,", "").split(",");
+
+		zapetajkiCount = zapetajki.length - 1;
+		value = zapetajkiCount;
+		System.out.println("V tozi thread sa prebroeni - " + zapetajkiCount);
+		getValue();
+
+	}
+	public int getValue(){
+		return value;
+	}
+}

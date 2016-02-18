@@ -1,0 +1,17 @@
+package ThreadsTest;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		
+		Thread myThread1 = new Thread(new MyFirstThread());
+		
+		myThread1.start();
+		
+		System.out.println("Ne]o w mejna");
+		
+		
+
+	}
+}
