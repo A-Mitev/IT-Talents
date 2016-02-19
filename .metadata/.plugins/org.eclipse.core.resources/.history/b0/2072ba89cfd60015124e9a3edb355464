@@ -4,8 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
-
 public class Zapetajki {
 
 	private static final int COUNT_OF_DIFFERENT_THREADS = 5;
@@ -33,22 +31,19 @@ public class Zapetajki {
 
 		long start = System.currentTimeMillis();
 		
-		int finalCount= 0;
+		int count3= 0;
 		int startIndex = 0;
-		for (int index = 0; index < COUNT_OF_DIFFERENT_THREADS; index++) {
-			MyThread myThread = new MyThread(allElements.substring(startIndex, startIndex + partForAnalize));
-			Thread thread = new Thread(myThread);
-			thread.start();
-			// bez tozi join vremeto e mnoooogo po-kratko, no no bez nego
-			// ne uspqvam da vzema myThread.getValue();
-			// v momenta testvam s Future, predpolagam tova e reshenieto.
-			thread.join();
-			finalCount += myThread.getValue();
+		for (int index = 0; index <= 4; index++) {
+			MyThread thread1 = new MyThread(allElements.substring(startIndex, startIndex + partForAnalize));
+			Thread thread11 = new Thread(thread1);
+			thread11.start();
+			thread11.join();
+			count3 += thread1.getValue();
 			startIndex += partForAnalize;
 			
 		}
 		
-		System.out.println("Obsht broj zapetajki = " + finalCount);
+		System.out.println(count3);
 
 //		MyThread thread1 = new MyThread(allElements.substring(0, partForAnalize));
 //		Thread thread11 = new Thread(thread1);
