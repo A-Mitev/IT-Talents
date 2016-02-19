@@ -86,7 +86,7 @@ public class Zapetajki {
 //		// System.out.println(thread5.getValue()+ "tovae petata ");
 
 		// tova mi vze silite, ne namiram kak da vzema celiq sbor na
-		// zapetajki... ( update - namerenoreshenie!)
+		// zapetajki...
 //		System.out.println("Obsht broj zapetajki = " + (thread1.getValue() + thread2.getValue() + thread3.getValue()
 //				+ thread4.getValue() + thread5.getValue()));
 
