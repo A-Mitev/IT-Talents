@@ -1,8 +1,0 @@
-package ZapetajkiS5Threada;
-
-public class Zapetajki {
-	
-	public static void main(String[] args) {
-		 
-	}
-}
