@@ -1,0 +1,7 @@
+package ZapetajkiSEdinThread;
+
+public class ZapetajkiDemo {
+	
+	Thread myThread = new Thread(new ThreadZapetajki());
+	myThread.start();
+}

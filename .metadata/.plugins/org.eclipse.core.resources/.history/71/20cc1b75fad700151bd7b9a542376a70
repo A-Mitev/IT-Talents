@@ -1,0 +1,29 @@
+package ZapetajkiSEdinThread;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class ZapetajkiDemo {
+	public static void main(String[] args)   {
+		Scanner scanner = new Scanner(System.in);
+		try {
+			scanner = new Scanner(new File("war_peace.txt"));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		StringBuilder builder = new StringBuilder();
+		while (scanner.hasNextLine()) {
+			builder.append(scanner.nextLine());
+		}
+		String textForThread = builder.toString();
+
+		long start = System.currentTimeMillis();
+
+		Thread myThread = new Thread(new ThreadZapetajki(textForThread));
+		myThread.start();
+
+		System.out.println("Vreme za izpulnenie = " + (System.currentTimeMillis() - start));
+	}
+}
