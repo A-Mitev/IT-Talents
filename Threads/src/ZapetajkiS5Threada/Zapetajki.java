@@ -39,7 +39,8 @@ public class Zapetajki {
 			MyThread myThread = new MyThread(allElements.substring(startIndex, startIndex + partForAnalize));
 			Thread thread = new Thread(myThread);
 			thread.start();
-			// bez tozi join vremeto e mnoooogo po-kratko, no no bez nego
+			
+			// bez tozi join vremeto e mnoooogo po-kratko, no bez nego
 			// ne uspqvam da vzema myThread.getValue();
 			// v momenta testvam s Future, predpolagam tova e reshenieto.
 			thread.join();
@@ -49,7 +50,11 @@ public class Zapetajki {
 		}
 		
 		System.out.println("Obsht broj zapetajki = " + finalCount);
-
+		
+		
+		//...ostaveno e samo za info kakvo e bilo (hrumna mi genialnata ideq da zamestq povtorenieto 
+		//na kod s cikul i to vze che se poluchi :)...
+		
 //		MyThread thread1 = new MyThread(allElements.substring(0, partForAnalize));
 //		Thread thread11 = new Thread(thread1);
 //

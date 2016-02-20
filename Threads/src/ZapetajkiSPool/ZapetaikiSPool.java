@@ -1,6 +1,5 @@
 package ZapetajkiSPool;
 
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -12,55 +11,49 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class ZapetaikiSPool {
-	
-//	Niki, tova e tvoqt kod kojto se opitava da promenq no cikula s razdelqneto baq me zatrudnqva. Izuchavam go :)
 
-		private static final int NUMBER_OF_THREADS = 8;
+	private static final int COUNT_OF_DIFFERENT_THREADS = 5;
 
-		public static void main(String[] args) throws FileNotFoundException, InterruptedException, ExecutionException {
-			@SuppressWarnings("resource")
-			Scanner scanner = new Scanner(new File("war_peace.txt"));
-			StringBuilder builder = new StringBuilder();
-			while (scanner.hasNextLine()) {
-				builder.append(scanner.nextLine());
-			}
-			
-			long start = System.currentTimeMillis();
-			
-			ExecutorService threadPool = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
-			
-			List<Future<Integer>> results = new ArrayList<Future<Integer>>();
-			
-			
-			
-			for (int part = 0; part <= NUMBER_OF_THREADS-1; part++) {
-				String partOfText = builder.substring((part * builder.length()/NUMBER_OF_THREADS)+1, 
-						(part+1) * builder.length()/NUMBER_OF_THREADS);
+	public static void main(String[] args) throws InterruptedException, ExecutionException, FileNotFoundException {
+		Scanner scanner = new Scanner(System.in);
+
+		scanner = new Scanner(new File("war_peace.txt"));
+		StringBuilder builder = new StringBuilder();
+
+		while (scanner.hasNextLine()) {
+			builder.append(scanner.nextLine());
+		}
+		String allElements = builder.toString();
+		int partForAnalize = (allElements.length() / COUNT_OF_DIFFERENT_THREADS);
+
+		long start = System.currentTimeMillis();
+
+		ExecutorService pool = Executors.newFixedThreadPool(COUNT_OF_DIFFERENT_THREADS);
+
+		List<Future> allCounts = new ArrayList<Future>();
+		
+		int startIndex = 0;
+		for (int thread = 0; thread < COUNT_OF_DIFFERENT_THREADS; thread++) {
+
+			String textToAnalize = allElements.substring(startIndex, (startIndex + partForAnalize));
+			startIndex += partForAnalize;
+			allCounts.add(pool.submit(() -> {
+				String[] zapetajki = textToAnalize.replaceAll("^,", "").split(",");
+
+				int count = zapetajki.length - 1;
+				return count;
 				
-				results.add(threadPool.submit( ()-> {
-					int count = 0;
-					for (int i = 1; i <= 100; i++) {
-						for (int index = 0; index < partOfText.length(); index++) {
-							if (partOfText.charAt(index) == ',') {
-								count++;
-							}
-						}
-					}
-					
-					return count;
-				}));
-			}
+			}));
 			
-			int count = 0;
-			
-			for (Future<Integer> num : results) {
-				count += num.get();
-			}
-			
-			System.out.println(count);
-			System.out.println("Time " + (System.currentTimeMillis() - start));
-			
-			threadPool.shutdown();
+		}
+		int allCOunt = 0;
+		for (Future<Integer> num : allCounts) {
+			allCOunt += num.get();
 		}
 
+		System.out.println("Obsht broj zapetajki = " + allCOunt);
+		System.out.println("Time " + (System.currentTimeMillis() - start));
+
+		pool.shutdown();
 	}
+}

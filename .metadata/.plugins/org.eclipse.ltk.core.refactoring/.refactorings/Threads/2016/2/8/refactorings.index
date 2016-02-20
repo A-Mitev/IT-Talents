@@ -19,3 +19,8 @@
 1455862350695	Rename local variable 'thread1'
 1455862360718	Rename local variable 'thread11'
 1455862523024	Rename local variable 'count3'
+1456010263982	Copy compilation unit
+1456010390211	Delete element
+1455987049905	Rename local variable 'threadPool'
+1455987072823	Rename local variable 'results'
+1455987143975	Rename local variable 'part'

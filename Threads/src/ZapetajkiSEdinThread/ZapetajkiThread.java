@@ -15,9 +15,6 @@ public class ZapetajkiThread implements Runnable {
 			e.printStackTrace();
 		}
 		StringBuilder builder = new StringBuilder();
-		
-		
-
 		while (scanner.hasNextLine()) {
 			builder.append(scanner.nextLine());
 		}
