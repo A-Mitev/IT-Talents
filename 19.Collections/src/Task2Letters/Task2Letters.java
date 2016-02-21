@@ -42,9 +42,9 @@ public class Task2Letters {
 										// printira gotino :)
 		
 		
-		for(Map.Entry<String, Integer> entry : letterBag.entrySet()){
-			System.out.println(entry.getValue());
-		}
+//		for(Map.Entry<String, Integer> entry : letterBag.entrySet()){
+//			System.out.println(entry.getValue());
+//		}
 
 		ArrayList<String> lettersForSorting = new ArrayList<String>();
 		lettersForSorting.addAll(letterBag.keySet());

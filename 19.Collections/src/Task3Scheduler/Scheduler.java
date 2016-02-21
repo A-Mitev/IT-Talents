@@ -1,5 +1,6 @@
 package Task3Scheduler;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -17,18 +18,17 @@ public class Scheduler {
 
 		Scheduler scheduler = new Scheduler();
 
-		ITask firstTask = new Task("Da izveda kucheto");
-		ITask secondTask = new Task("Da nahranq kucheto");
-		ITask thirdTask = new Task("Da si napravq kafe");
-		ITask fourthTask = new Task("Da si vzema chadur");
-		ITask fifthTask = new Task("Da zaklucha vratada");
+		ArrayList<Task> allTasks = new ArrayList<Task>();
 
-		scheduler.push(firstTask);
-		scheduler.push(secondTask);
-		scheduler.push(thirdTask);
-		scheduler.push(thirdTask);
-		scheduler.push(fourthTask);
-		scheduler.push(fifthTask);
+		allTasks.add(new Task("Da izveda kucheto"));
+		allTasks.add(new Task("Da nahranq kucheto"));
+		allTasks.add(new Task("Da si napravq kafe"));
+		allTasks.add(new Task("Da si vzema chadur"));
+		allTasks.add(new Task("Da zaklucha vratata"));
+
+		for (Task zadachi : allTasks) {
+			scheduler.push(zadachi);
+		}
 
 		for (ITask task : someTasks) {
 			task.doWork();

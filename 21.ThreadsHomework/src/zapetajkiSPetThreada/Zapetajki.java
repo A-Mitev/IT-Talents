@@ -38,6 +38,7 @@ public class Zapetajki {
 			// v momenta testvam s Future, predpolagam tova e reshenieto.
 			thread.join();
 			finalCount += myThread.getValue();
+			
 			startIndex += partForAnalize;
 			
 		}

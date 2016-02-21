@@ -19,7 +19,7 @@ class MyThread implements Runnable {
 		String[] zapetajki = textToAnalize.replaceAll("^,", "").split(",");
 
 		zapetajkiCount = zapetajki.length - 1;
-		System.out.println("V tozi thread sa prebroeni - " + zapetajkiCount);
+		System.out.println("V tozi thread  " + Thread.currentThread().getName() + " sa prebroeni - " + zapetajkiCount);
 
 	}
 

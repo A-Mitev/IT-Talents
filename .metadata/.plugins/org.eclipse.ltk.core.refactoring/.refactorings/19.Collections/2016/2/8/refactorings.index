@@ -9,3 +9,4 @@
 1455620311602	Delete element
 1455626073625	Rename type 'WrongWorkEntryExceprion'
 1455626980445	Encapsulate field 'scheduler'
+1455993665968	Rename local variable 'obj'
