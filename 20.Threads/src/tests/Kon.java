@@ -2,25 +2,32 @@ package tests;
 
 public class Kon implements Runnable {
 
-	private static final int TIME_TO_RUN_A_MILE = 250;
-	private static final int MILES_TO_RUN = 200;
-
+	private static final int MILES_TO_RUN = 20;
+	
 	@Override
 	public void run() {
-		String horseName = Thread.currentThread().getName();
-		System.out.println(horseName + "Starts Running");
+		
+		System.out.println(getHorseName() + " Zapochna da bqga");
 
-		for (int mile = 0; mile < MILES_TO_RUN; mile++) {
+		for (int miles = 0; miles < getTimeToRunAMile(); miles++) {
+
 			try {
-				Thread.sleep(TIME_TO_RUN_A_MILE);
+				Thread.sleep(200);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
-			System.out.println("Do sega izbqga tolkova" + mile);
-		}
 
-		System.out.println(horseName + "Finished Running");
+			}
+			System.out.println("Do sega " + getHorseName() + " izbqga " + miles);
+		}
+		System.out.println(getHorseName() + " finishira");
+
+	}
+	protected String getHorseName() {
+		return Thread.currentThread().getName();
+	}
+	protected int getTimeToRunAMile(){
+		return MILES_TO_RUN;
 	}
 
 }

@@ -7,3 +7,10 @@
 1456043579420	Rename local variable 'index'
 1456043667778	Rename local variable 'index'
 1456043685429	Extract constant 'NUMBER_OF_HORSES'
+1456049187481	Extract constant 'MILES_TO_RUN'
+1456049195765	Rename local variable 'index'
+1456049448618	Extract constant 'NUMBER_OF_CONSTANTS'
+1456049476162	Rename field 'NUMBER_OF_CONSTANTS'
+1456051555046	Delete element
+1456051563292	Delete element
+1456051565899	Delete element
