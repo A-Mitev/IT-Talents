@@ -40,7 +40,7 @@ public class ZapetajkiSPool {
 			allCounts.add(pool.submit(() -> {
 				String[] zapetajki = textToAnalize.replaceAll("^,", "").split(",");
 				int count = zapetajki.length - 1;
-				System.out.println(Thread.currentThread().getName() + " " + count);
+				System.out.println(Thread.currentThread().getName());
 				return count;
 			}));
 		}
