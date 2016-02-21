@@ -1,0 +1,9 @@
+1456042945932	Delete element
+1456042949338	Delete element
+1456042952716	Delete element
+1456043079967	Delete element
+1456043339594	Extract constant 'MILES_TO_RUN'
+1456043475849	Extract constant 'TIME_TO_RUN_A_MILE'
+1456043579420	Rename local variable 'index'
+1456043667778	Rename local variable 'index'
+1456043685429	Extract constant 'NUMBER_OF_HORSES'
