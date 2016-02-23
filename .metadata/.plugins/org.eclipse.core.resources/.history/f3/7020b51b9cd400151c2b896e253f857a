@@ -1,9 +1,0 @@
-package Collection;
-
-public class WordCountingTask {
-
-	public WordCountingTask() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

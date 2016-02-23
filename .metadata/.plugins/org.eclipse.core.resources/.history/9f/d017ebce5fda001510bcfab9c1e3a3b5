@@ -1,0 +1,16 @@
+package test;
+
+
+
+public class TestDBConnection {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "root");
+		
+		Statement statement = 
+		
+	}
+}
