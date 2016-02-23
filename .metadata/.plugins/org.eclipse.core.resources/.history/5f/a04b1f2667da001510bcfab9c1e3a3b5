@@ -17,14 +17,13 @@ public class TestDBConnection {
 			Statement statement = connect.createStatement();
 			
 
-			String sqlInsert = "INSERT INTO `mydb`.`cart` (`ProductID`, `Broiki`, `CartID`)"
-					+ " VALUES ('2', '20', '2')";
-
-			statement.executeUpdate(sqlInsert);
+//			String sqlInsert = "INSERT INTO `mydb`.`cart` (`ProductID`, `Broiki`, `CartID`)"
+//					+ " VALUES ('5', '5', '5')";
+//
+//			statement.executeUpdate(sqlInsert);
 			
 			ResultSet result = statement.executeQuery("select * from mydb.Cart");
-//			ResultSetMetaData testResult = (ResultSetMetaData) result.getMetaData();
-//			System.out.println(testResult);
+			System.out.println(result.getMetaData());
 
 			while (result.next()) {
 
