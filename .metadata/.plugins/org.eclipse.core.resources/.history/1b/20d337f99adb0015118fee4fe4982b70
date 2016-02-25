@@ -1,0 +1,19 @@
+package MusicInstrumentsHomework;
+
+public  class MusicInstrument {
+	// tozi klas purvo mislih da e abstract
+	// no taka napisan za otdelen clas Instrumen ne ostava nishto za opisvane
+	
+	private String name;
+	private InstrumentType type;
+	private double price;
+	private int quantity;
+	
+	
+	public MusicInstrument(String name, InstrumentType type, double price, int quantity) {
+		this.name = name;
+		this.type = type;
+		this.price = price;
+		this.quantity = quantity;
+	}
+}

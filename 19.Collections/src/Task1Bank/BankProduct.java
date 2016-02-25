@@ -1,5 +1,8 @@
 package Task1Bank;
 
-public class BankProduct {
+public abstract class BankProduct {
+	
+	private String iban;
+	
 
 }

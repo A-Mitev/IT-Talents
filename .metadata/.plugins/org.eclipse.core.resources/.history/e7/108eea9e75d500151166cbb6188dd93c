@@ -1,9 +1,0 @@
-package Random_Tests_OOP;
-
-public class ZapetajkiThread {
-
-	public ZapetajkiThread() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

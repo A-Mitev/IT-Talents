@@ -1,0 +1,14 @@
+package MusicInstrumentsHomework;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		Instrument babaran = new Instrument("Baraban", 550, 8, "Udurni");
+		Instrument kitara = new Instrument("Kitara", 2562, 4, "Strunenni");
+		Instrument flejta = new Instrument("Flejta", 120, 15, "Duhovi");
+		Instrument piano = new Instrument("Piano", 2999, 1, "Klavishni");
+		
+		
+		
+	}
+}

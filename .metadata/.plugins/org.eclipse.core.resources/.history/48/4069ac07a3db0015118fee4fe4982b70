@@ -1,0 +1,40 @@
+package MusicInstrumentsHomework;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.IntStream;
+
+public class MusicShop {
+	
+	private Map<String, MusicInstrument> productsInShop;
+	private double availableMoney;
+	
+	
+	public MusicShop( double availableMoney) {
+		productsInShop = new HashMap<String, MusicInstrument>();
+		this.setAvailableMoney(availableMoney);
+	}
+
+
+	
+	void addMusicInstrument(MusicInstrument inst, MusicInstrument quantity){
+		if(!productsInShop.containsKey(inst.getName())){
+			productsInShop.put(inst.getName(), quantity);
+		}
+	}
+	
+	
+
+	public double getAvailableMoney() {
+		return availableMoney;
+	}
+
+
+	public void setAvailableMoney(double availableMoney) {
+		if(availableMoney >= 0)
+		this.availableMoney = availableMoney;
+	}
+	
+	
+	
+}

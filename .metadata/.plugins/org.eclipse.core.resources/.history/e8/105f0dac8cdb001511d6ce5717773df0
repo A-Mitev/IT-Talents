@@ -1,0 +1,5 @@
+package MusicInstrumentsHomework;
+
+public abstract class MusicInstrument {
+
+}

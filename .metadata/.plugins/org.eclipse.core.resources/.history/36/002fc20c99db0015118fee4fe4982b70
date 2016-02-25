@@ -1,0 +1,23 @@
+package MusicInstrumentsHomework;
+
+public class Instrument extends MusicInstrument{
+	
+	private String typeOFInstrument;
+
+	public Instrument(String name, double price, int quantity, String typeOFInstrument) {
+		super(name, price, quantity);
+		this.typeOFInstrument = typeOFInstrument;
+	}
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+
+}

@@ -1,9 +1,0 @@
-package ThreadsHomework;
-
-public class ZapetajkiThread {
-
-	public ZapetajkiThread() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

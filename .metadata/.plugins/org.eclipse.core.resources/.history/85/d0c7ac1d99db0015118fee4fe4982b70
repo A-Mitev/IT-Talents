@@ -1,0 +1,17 @@
+package MusicInstrumentsHomework;
+
+public abstract class MusicInstrument {
+	
+	private String name;
+	private InstrumentType type;
+	private double price;
+	private int quantity;
+	
+	
+	public MusicInstrument(String name, InstrumentType type, double price, int quantity) {
+		this.name = name;
+		this.type = type;
+		this.price = price;
+		this.quantity = quantity;
+	}
+}
