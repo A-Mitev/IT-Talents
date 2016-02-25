@@ -1,4 +1,4 @@
-package MusicInstrumentsHomework;
+package TestMusicInstruments;
 
 public enum InstrumentType {
 	Strunni, Udarni, Duhovi, Klavishni, Electronni

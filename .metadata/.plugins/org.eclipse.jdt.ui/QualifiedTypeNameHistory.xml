@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ThreadsTest.MyThread"/>
-<fullyQualifiedTypeName name="java.util.MissingFormatArgumentException"/>
-<fullyQualifiedTypeName name="ThreadsTest.MyDrugThread"/>
 <fullyQualifiedTypeName name="EmployeeTask.COmpanlyException"/>
 <fullyQualifiedTypeName name="EmployeeTask.CompanyException"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="EmployeeTask.Employee"/>
@@ -14,7 +10,6 @@
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="javax.management.Query"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
@@ -58,6 +53,11 @@
 <fullyQualifiedTypeName name="Task1Bank.IClient"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.ResultSetMetaData"/>
 <fullyQualifiedTypeName name="java.sql.ResultSetMetaData"/>
-<fullyQualifiedTypeName name="MusicInstrumentsHomework.MusicInstrument"/>
 <fullyQualifiedTypeName name="MusicInstrumentsHomework.Instrument"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="MusicInstrumentsHomework.MusicShop"/>
+<fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+<fullyQualifiedTypeName name="MusicInstrumentsHomework.MusicInstrument"/>
+<fullyQualifiedTypeName name="MusicInstrumentsHomework.InstrumentType"/>
 </qualifiedTypeNameHistroy>

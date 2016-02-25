@@ -1,4 +1,4 @@
-package MusicInstrumentsHomework;
+package TestMusicInstruments;
 
 import java.util.HashMap;
 import java.util.Map;

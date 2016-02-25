@@ -1,4 +1,4 @@
-package MusicInstrumentsHomework;
+package TestMusicInstruments;
 
 public class MusicInstrument {
 	// tozi klas purvo mislih da e abstract
