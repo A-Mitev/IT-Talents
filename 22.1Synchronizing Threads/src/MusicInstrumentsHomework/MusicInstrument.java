@@ -10,9 +10,6 @@ public class MusicInstrument {
 	private int quantityInShop;
 
 	
-
-
-
 	public MusicInstrument(String name, InstrumentType type, double price) {
 		this.setName(name);
 		this.getType();
@@ -40,7 +37,7 @@ public class MusicInstrument {
 			this.price = price;
 	}
 
-	// poneze type-a e Enum kolekcijka nqma nuzda ot seter zashtoto
+	// poneze type-a e Enum kolekcijkata nqma nuzda ot seter zashtoto
 	// moze da se izpira samo ot izbroenite neshta
 	public InstrumentType getType() {
 		return type;
@@ -49,11 +46,7 @@ public class MusicInstrument {
 	public int getQuantityInShop() {
 		return quantityInShop;
 	}
-
 	
-
-
-
 	// quantity-to si mislq che moze da e nula no instrumenta da figurira v
 	// magazina
 	public void setQuantityInShop(int quantityInShop) {
