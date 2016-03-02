@@ -135,7 +135,7 @@ CREATE TABLE `hr`.`users` (
   `username` VARCHAR(20) NOT NULL,
   `pass_word` VARCHAR(20) NOT NULL,
   `fullname` VARCHAR(45) NOT NULL,
-  `lastlogintime` datetime NOT NULL,
+  `lastlogintime` datetime NULL,
   PRIMARY KEY (`user_id`));
   
   DELIMITER $$
@@ -149,8 +149,8 @@ DELIMITER ;
 
 
 
-insert into hr.users (user_id, pass_word, fullname, lastlogintime)
-values (1,  '6969','Bari Labradora', now());
+insert into hr.users (user_id, username, pass_word, fullname, lastlogintime, group_id)
+values (1, 'Bari', '6969','Bari Labradora', now(), 1);
 
 -- insert into hr.users (user_id, username, pass_word, fullname, lastlogintime)
 -- values (1, 'sdsv', '6969','Bari Labradora', now());
@@ -167,7 +167,118 @@ where date_sub(curdate(), interval 1 day)<=lastlogintime;
 
 -- 22
 CREATE TABLE `hr`.`groups` (
-  `group_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `group_id` INT(15) NOT NULL AUTO_INCREMENT,
   `groupName` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`group_id`),
   UNIQUE INDEX `groupName_UNIQUE` (`groupName` ASC));
+  
+-- 23
+alter table hr.users add(group_id int(15));	
+
+insert into hr.users (username, pass_word, fullname, lastlogintime, group_id) values ('Nexus', 'alabala', 'Google', now(),2);
+update hr.users set group_id = 2 where user_id = 1;
+
+alter table hr.users
+add constraint fk_groups
+foreign key (group_id)
+references groups(group_id);
+
+-- 24
+insert into hr.groups(group_id, groupName) values (1,'Dogs');
+insert into hr.groups(group_id, groupName) values (2,'Mobifones');
+insert into hr.groups(group_id, groupName) values (3,'LandLines');
+
+insert into hr.users (user_id, username, pass_word, fullname, lastlogintime, group_id)
+values (null, 'Nexus6P', '6969','Alphabet', now(), 3);
+
+insert into hr.users (user_id, username, pass_word, fullname, lastlogintime, group_id)
+values (null, '6S', '1212','Alphabet', now(), 2);
+
+-- 25
+insert into users(user_id, username, pass_word,fullname)
+select null, email, ' ', concat(first_name, ' ', last_name)
+from hr.employees;
+
+-- 26
+-- ok - 10 times
+
+-- 27
+update users 
+set pass_word = null
+where lastlogintime<='2006-03-10' and user_id > 500; -- tuk malko promenih che ne mi davashe zaradi safe update opciqta
+
+-- 28
+
+delete from hr.users
+where pass_word = null;
+
+-- 29
+select username from users
+where username like 's%';
+
+-- 30
+create table workhours(
+employee_id int(11) unsigned key auto_increment,
+`date` datetime not null,
+task varchar(50) not null,
+hours int(10) not null,
+comment text(200)
+);
+
+-- 31
+ALTER TABLE workhours
+ADD CONSTRAINT fk_employee
+FOREIGN KEY (employee_id)
+REFERENCES hr.employees(employee_id);
+
+-- 32
+
+select * from workhours;
+
+insert into workhours values(10,now(), 'Nauchi OOP', 24, 'Ako li ne otivash dunerdjiq');
+insert into workhours values(105,now(), 'Vzemi nauchi nishkite', 16, 'Bez izvineniq');
+insert into workhours values(109,now(), 'Ne zakusnqvaj poveche za lekcii', 8, 'Nauchi kolekcii');
+insert into workhours values(110,now(), 'Napishi domashnoto', 3, 'I sledvashtoto sushto');
+insert into workhours values(101,now(), 'Oburni vnimanie na zenata', 12, 'Izberi si koq ot vsichki e naj-prioritetna :) ');
+
+-- 33
+select avg(w.hours) as 'Avg. Working Hours', c.country_name
+from hr.countries c
+join hr.locations l
+on l.country_id=c.country_id
+join hr.departments d
+on d.location_id=l.location_id
+join hr.employees e
+on d.department_id=e.department_id
+join workhours w
+on w.employee_id=e.employee_id
+group by country_name;
+
+-- 34
+select d.department_name
+from hr.departments d
+join hr.employees e
+on e.department_id=d.department_id
+join workhours w
+on w.employee_id=e.employee_id
+-- Definition and Usage The DATE_SUB() function subtracts a specified time interval from a date.
+where date_sub(curdate(), interval 1 week)<=w.date and w.hours > 8;
+
+-- 35
+
+-- UPDATE `hr`.`workhours` SET `hours`='75' WHERE `employee_id`='101';
+
+select concat(e.first_name, ' ', e.last_name) as Name, d.department_name, c.country_name
+from hr.countries c
+join hr.locations l
+on l.country_id=c.country_id
+join hr.departments d
+on d.location_id=l.location_id
+join hr.employees e
+on d.department_id=e.department_id
+join workhours w
+on w.employee_id=e.employee_id
+where w.hours > 74
+
+
+
