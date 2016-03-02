@@ -107,8 +107,6 @@ public class MusicShop {
 			}
 		}
 		System.out.println("..........");
-		InstrumentType[] types = InstrumentType.values();
-		
 	}
 
 	public double getAvailableMoney() {

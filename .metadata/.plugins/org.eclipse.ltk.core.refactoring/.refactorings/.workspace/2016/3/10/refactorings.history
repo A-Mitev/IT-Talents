@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;DAO&apos;" deleteContents="false" description="Delete resource &apos;DAO&apos;" element1="/DAO" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1456828111531"/>&#x0A;<refactoring comment="Rename resource &apos;TestovProectDao&apos; to &apos;23.TestovProectDao&apos;" description="Rename resource &apos;TestovProectDao&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/TestovProectDao" name="23.TestovProectDao" stamp="1456828316192" updateReferences="true"/>
+</session>
