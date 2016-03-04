@@ -6,6 +6,7 @@ public class ClientNameException extends Exception {
 	private static final long serialVersionUID = -4006051281535626729L;
 
 	public ClientNameException() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public ClientNameException(String message) {
