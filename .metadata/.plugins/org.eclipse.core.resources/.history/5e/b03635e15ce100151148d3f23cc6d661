@@ -1,0 +1,9 @@
+package tast1_1Bank;
+
+public class Credit {
+
+	public Credit() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package Random_Tests_OOP;
+
+public class GenerateName {
+
+	public GenerateName() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

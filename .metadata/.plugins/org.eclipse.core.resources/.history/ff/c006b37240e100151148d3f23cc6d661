@@ -1,0 +1,22 @@
+package Task1Bank;
+
+public abstract class BankProduct {
+	
+	private static final int THE_LENGTH_OF_IBAN = 22;
+
+	
+	
+	private String iban = "BGITTALENTS";
+	private double annualRate;
+	private int monthsPeriod;
+	private double availability;
+	
+	
+	private String generateIban(){
+		for (int index = 0; index < (THE_LENGTH_OF_IBAN - iban.length()); index++) {
+			this.iban += (int) (Math.random() * 10);
+		}
+		return this.iban;
+	}
+	
+}

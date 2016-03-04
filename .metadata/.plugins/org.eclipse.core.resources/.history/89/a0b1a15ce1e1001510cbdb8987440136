@@ -1,0 +1,29 @@
+package tast1_1Bank;
+
+public class ClientNameException extends Exception {
+
+	public ClientNameException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public ClientNameException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public ClientNameException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public ClientNameException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public ClientNameException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+}

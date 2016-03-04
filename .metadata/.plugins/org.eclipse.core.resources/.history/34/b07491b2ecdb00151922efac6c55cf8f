@@ -1,5 +1,0 @@
-package TestMusicInstruments;
-
-public enum InstrumentType {
-	Strunni, Udarni, Duhovi, Klavishni, Electronni
-}

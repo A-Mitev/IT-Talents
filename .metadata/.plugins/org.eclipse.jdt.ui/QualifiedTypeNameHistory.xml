@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.time.LocalTime"/>
-<fullyQualifiedTypeName name="javax.management.Query"/>
-<fullyQualifiedTypeName name="java.util.Queue"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="java.lang.Iterable"/>
-<fullyQualifiedTypeName name="javax.print.attribute.standard.SheetCollate"/>
-<fullyQualifiedTypeName name="Task3Scheduler.Task"/>
 <fullyQualifiedTypeName name="Task3Scheduler.ITask"/>
 <fullyQualifiedTypeName name="Task3Scheduler.Scheduler"/>
 <fullyQualifiedTypeName name="java.lang.Character"/>
@@ -37,7 +30,6 @@
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="tests.KucKon"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="Task1Bank.IClient"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.ResultSetMetaData"/>
 <fullyQualifiedTypeName name="java.sql.ResultSetMetaData"/>
 <fullyQualifiedTypeName name="MusicInstrumentsHomework.Instrument"/>
@@ -45,7 +37,6 @@
 <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
 <fullyQualifiedTypeName name="java.lang.management.PlatformLoggingMXBean"/>
 <fullyQualifiedTypeName name="javax.swing.text.PlainDocument"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="MusicInstrumentsHomework.InstrumentComparator"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="MusicInstrumentsHomework.InstrumentNameComparator"/>
@@ -55,9 +46,18 @@
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="MusicInstrumentsHomework.InstrumentType"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="MusicInstrumentsHomework.MusicInstrument"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Task1Bank.IClient"/>
+<fullyQualifiedTypeName name="Task1Bank.Deposit"/>
+<fullyQualifiedTypeName name="Task1Bank.BankProduct"/>
+<fullyQualifiedTypeName name="tast1_1Bank.BankPoduct"/>
+<fullyQualifiedTypeName name="tast1_1Bank.Deposit"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="tast1_1Bank.BankProduct"/>
+<fullyQualifiedTypeName name="tast1_1Bank.IClient"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

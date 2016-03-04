@@ -1,0 +1,44 @@
+package tast1_1Bank;
+
+public class BankPoduct {
+
+	
+	private static final int MAX_AVAILABILITY_FOR_PRODUCT = 60;
+	private static final int MIN_AVAILABILITY_FOR_PRODUCT = 1;
+	private static final int THE_LENGTH_OF_IBAN = 22;
+	private String iban;
+	private double annualRate;
+	private int period;
+	
+	
+	
+	public BankPoduct(double annualRate, int period) {
+		this.getAnnualRate();
+		this.setPeriod(period);
+		this.generateIban();
+		
+	}
+	
+	public double getAnnualRate() {
+		return annualRate;
+	}
+
+	private String generateIban() {
+		for (int index = 0; index < (THE_LENGTH_OF_IBAN - iban.length()); index++) {
+			this.iban += (int) (Math.random() * 10);
+		}
+		return this.iban;
+	}
+	
+	public int getPeriod() {
+		return period;
+	}
+
+	public void setPeriod(int period) {
+		if(period >= MIN_AVAILABILITY_FOR_PRODUCT && period <= MAX_AVAILABILITY_FOR_PRODUCT){
+			this.period = period;
+		}
+		
+	}
+
+}

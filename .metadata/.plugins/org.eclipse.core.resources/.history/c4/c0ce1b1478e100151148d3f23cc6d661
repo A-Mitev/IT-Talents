@@ -1,0 +1,22 @@
+package Task1Bank;
+
+public class Deposit extends BankProduct{
+	
+	private double interestPayment;
+
+	
+
+	public Deposit(double moneyAvailability, int monthsPeriod, double annualRate)
+			throws WrongAnnualRateValueException {
+		super(moneyAvailability, monthsPeriod, annualRate);
+		this.interestPayment = moneyAvailability * getAnnualRate();
+	}
+
+
+
+	public double getAmount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

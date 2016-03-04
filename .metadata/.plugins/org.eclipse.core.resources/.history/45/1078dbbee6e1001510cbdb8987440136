@@ -1,0 +1,28 @@
+package Random_Tests_OOP;
+
+public class GenerateName {
+	private static String iban;
+	private static final int THE_LENGTH_OF_IBAN = 22;
+	
+	private static  String generateIban() {
+		for (int index = 0; index < (THE_LENGTH_OF_IBAN - iban.length()); index++) {
+			iban += (int) (Math.random() * 10);
+		}
+		return iban;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+//		ystem.out.println(generateIban());
+	String name = "Ivan";
+	
+	int a = 33424;
+	for (int index = 0; index < 3; index++) {
+		name += a;
+		System.out.println(name);
+	}
+	}
+
+}

@@ -1,0 +1,25 @@
+package tast1_1Bank;
+
+public class BankPoduct {
+
+	
+	private static final int THE_LENGTH_OF_IBAN = 22;
+	private String iban;
+	private double annualRate;
+	private int period;
+	
+	
+	
+	public BankPoduct() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	private String generateIban() {
+		for (int index = 0; index < (THE_LENGTH_OF_IBAN - iban.length()); index++) {
+			this.iban += (int) (Math.random() * 10);
+		}
+		return this.iban;
+	}
+
+}

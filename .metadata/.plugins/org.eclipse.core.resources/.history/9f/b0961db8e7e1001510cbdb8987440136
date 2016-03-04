@@ -1,0 +1,57 @@
+package tast1_1Bank;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Demo {
+
+	public static void main(String[] args) throws FaliralaBankaException, InvalidDepositNameException, ClientNameException, InvalidSalaryException {
+		
+		Bank ittsBank = new Bank("ITTS-Bank", 999999999);
+		List<BankProduct> products = new ArrayList<>(6);
+		ittsBank.setBankProducts(products);
+		
+		
+		Deposit smallDeposit = new Deposit(2.2, 5, "Small Deposit");
+		Credit potrebitelski = new Credit(7, 9, "Potrebitelski Credit");
+		Deposit megaDeposit = new Deposit(3, 60, "Golqm deposit");
+		Credit koftiKredit = new Credit(14, 50, "Kofti Kredit");
+		
+		Set<Client> clients = new HashSet<Client>();
+		for (int index = 0; index < 5; index++) {
+			String name = "client";
+			clients.add(new Client(name + index, Math.random() * 150, Math.random() * 75));
+		}
+		
+		for(Client client : clients){
+			client.setBank(ittsBank);
+			double percent = (Math.random()*(1-0.8)) + 0.8;
+			if(percent<0.9){
+				client.makeDeposit(client.getMoneyInAccount() *percent,smallDeposit  );
+			}
+			if(percent>=0.9){
+				client.makeDeposit(client.getMoneyInAccount()*percent, megaDeposit);
+			}
+			
+			// Credit getting on random
+			double random = Math.random();
+			if(random<0.5){
+				client.getCredit(3000, potrebitelski);
+			}
+			if(random>=0.5){
+				client.getCredit(400, koftiKredit);
+			}
+		}
+		
+		
+		System.out.println("-----------------");
+		System.out.println("START CAPITAL");
+		System.out.println("Bank situation: ");
+		System.out.println("Available money: " + ittsBank.getAvailableMoney());
+		System.out.println("Bank reserve: " + ittsBank.getBankReserve());
+		System.out.println("-----------------");
+		
+	}
+}

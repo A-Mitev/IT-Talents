@@ -1,0 +1,9 @@
+package tast1_1Bank;
+
+public class BankPoduct {
+
+	public BankPoduct() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

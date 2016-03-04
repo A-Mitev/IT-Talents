@@ -1,0 +1,17 @@
+package Task1Bank;
+
+public abstract class BankProduct {
+	
+	int a= 22;
+	
+	private String iban = "BGITTALENTS"
+	private double annualRate;
+	private int monthsPeriod;
+	private double availability;
+	
+	
+	private String generateIban{
+		
+	}
+	
+}

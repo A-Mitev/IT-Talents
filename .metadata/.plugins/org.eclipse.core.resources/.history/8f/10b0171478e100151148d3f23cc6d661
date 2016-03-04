@@ -1,0 +1,8 @@
+package Task1Bank;
+
+public interface IClient {
+		public void openDeposit(Deposit deposit);
+		public void creditRequest(Credit credit);
+		public void insertMoney();
+		
+}

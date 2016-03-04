@@ -1,8 +1,10 @@
-package Task1Bank;
+package task1Bank;
 
 public interface IClient {
-		public void openDeposit(Deposit d);
-		public void creditRequest(Credit c);
-		public void insertMoney();
-		
+
+	void makeDeposit(double money, Deposit deposit) throws FaliralaBankaException;
+
+	void getCredit(double money, Credit credit) throws FaliralaBankaException;
+
+	void payBankInterest() throws FaliralaBankaException;
 }

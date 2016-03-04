@@ -1,0 +1,30 @@
+package tast1_1Bank;
+
+public class InvalidDepositNameException extends Exception {
+
+	public InvalidDepositNameException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidDepositNameException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidDepositNameException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidDepositNameException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public InvalidDepositNameException(String message, Throwable cause, boolean enableSuppression,
+			boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+}

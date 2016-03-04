@@ -1,0 +1,51 @@
+package tast1_1Bank;
+
+import java.util.List;
+
+public class Client implements IClient{
+	
+	private String name;
+	private String address;
+	private double moneyInAccout;
+	private double salary;
+	private List<Deposit> deposits;
+	private List<Credit> credits;
+	private Bank bank;
+	
+	
+	public Client(String name, String address, double salary) {
+		this.name = name;
+		this.address = address;
+		this.salary = salary;
+	}
+
+
+	@Override
+	public void makeDeposit(double money, BankProduct deposit) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void getCredit(double money, BankProduct credit) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void payBankInterest() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+	
+	
+
+	
+
+}

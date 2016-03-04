@@ -1,0 +1,5 @@
+package tast1_1Bank;
+
+public interface IClient {
+
+}
