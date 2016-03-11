@@ -1,0 +1,34 @@
+package exam;
+
+import exceptions.InvalidCityException;
+import exceptions.InvalidNameExeption;
+import exceptions.InvalidPersonalNumberException;
+
+public class Employee extends Person{
+	
+	private Location workingOffice;
+	
+	public Employee(String name, String tel, City address, String personalNumber, Location workingOffice)
+			throws InvalidNameExeption, InvalidCityException, InvalidPersonalNumberException {
+		super(name, tel, address, personalNumber);
+		this.setWorkingOffice(workingOffice);
+	}
+
+	public void setWorkingOffice(Location workingOffice) {
+		if(workingOffice != null){
+		this.workingOffice = workingOffice;
+		}
+	}
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+
+}

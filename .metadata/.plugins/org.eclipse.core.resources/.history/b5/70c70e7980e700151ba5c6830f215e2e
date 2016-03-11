@@ -1,0 +1,18 @@
+package Test3Tests;
+
+public class Demo {
+	public static void main(String[] args) {
+		String s = "Sofia";
+		
+		for (City str : City.values()){
+			int number = 1;
+			if(str.equals(s)){
+				System.out.println("Ima go");
+				break;
+			} else {
+				System.out.println("Nqma go" + number );
+				number++;
+			}
+		}
+	}
+}

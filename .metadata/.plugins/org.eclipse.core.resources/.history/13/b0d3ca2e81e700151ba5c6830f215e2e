@@ -1,0 +1,13 @@
+package Test3Tests;
+
+import java.util.Arrays;
+
+public class Demo {
+	public static void main(String[] args) {
+		String s = "Sofia";
+		
+		
+		
+		System.out.println(Arrays.toString(City.values()));
+	}
+}

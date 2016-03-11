@@ -1,0 +1,16 @@
+package Test3Tests;
+
+import java.util.Arrays;
+
+public class Demo {
+	public static void main(String[] args) {
+		String s = "Sofia";
+		
+		for(City str : City.values()){
+			
+			System.out.println(str.equals(s));
+		}
+		
+		System.out.println(Arrays.toString(City.values()));
+	}
+}

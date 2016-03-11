@@ -1,0 +1,18 @@
+package exam;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class OrdinaryOffice {
+
+	private City city;
+	private List<Employee> employees;
+	
+	public OrdinaryOffice(City city, List<Employee> employees) {
+		this.city = city;
+		employees = new ArrayList<Employee>();
+	}
+	
+	
+	
+}

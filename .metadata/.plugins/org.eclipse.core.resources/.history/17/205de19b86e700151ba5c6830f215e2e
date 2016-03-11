@@ -1,0 +1,37 @@
+package exam;
+
+import java.util.EnumSet;
+
+public abstract class Person {
+
+	private String Name;
+	private String tel;
+	private String address;
+	private String personalNumber;
+
+	public Person(String name, String city) throws InvalidNameExeption, InvalidCityException {
+		setName(name);
+		setCity(city);
+	}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) throws InvalidNameExeption {
+		if (name != null & (name.length() > 10)) {
+			Name = name;
+		} else {
+			throw new InvalidNameExeption("The name must be full name");
+		}
+	}
+
+	public void setCity(String address) throws InvalidCityException {
+		if (address != null){
+			this.address = address;
+		} else {
+			throw new InvalidCityException("The city myst be one of the folowing: S, VT, V, R, P");
+		}
+
+	}
+}

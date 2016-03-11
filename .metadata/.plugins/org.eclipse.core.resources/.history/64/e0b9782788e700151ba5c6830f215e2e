@@ -1,0 +1,16 @@
+package exam;
+
+import java.sql.SQLException;
+
+import exceptions.InvalidCityException;
+
+public class Demo {
+
+	public static void main(String[] args) throws SQLException, InvalidNameExeption, InvalidCityException {
+		
+		TestDbConnection test = new TestDbConnection();
+		
+		test.addEmployee(new Person("Aleksandar Mitev", "Sofia"));
+	}
+
+}

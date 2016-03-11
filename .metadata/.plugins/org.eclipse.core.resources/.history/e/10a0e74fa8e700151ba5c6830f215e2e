@@ -1,0 +1,21 @@
+package exam;
+
+import exceptions.InvalidCityException;
+import exceptions.InvalidNameExeption;
+import exceptions.InvalidPersonalNumberException;
+
+public class ObsluzvanClient extends Person{
+
+	private Location obsluzvashtOffice;
+
+	public ObsluzvanClient(String name, String tel, City address, String personalNumber, Location obsluzvashtOffice)
+			throws InvalidNameExeption, InvalidCityException, InvalidPersonalNumberException {
+		super(name, tel, address, personalNumber);
+		if(obsluzvashtOffice != null){
+		this.obsluzvashtOffice = obsluzvashtOffice;
+		}
+	}
+	
+	
+
+}

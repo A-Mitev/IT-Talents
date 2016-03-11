@@ -1,0 +1,19 @@
+package exam;
+
+import java.sql.SQLException;
+
+import exceptions.InvalidCityException;
+import exceptions.InvalidNameExeption;
+import exceptions.InvalidPersonalNumberException;
+
+public class Demo {
+
+	public static void main(String[] args) throws SQLException, InvalidNameExeption, InvalidCityException, InvalidPersonalNumberException {
+		
+		TestDbConnection test = new TestDbConnection();
+		
+		Person rabotnik = new Person("Stamat Ivanov Stamatov", "0885858585" , City.Sofia, "8485848789"){};
+		test.addEmployee(rabotnik);
+	}
+
+}

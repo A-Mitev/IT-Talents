@@ -1,0 +1,39 @@
+package exam;
+
+public abstract class Person {
+
+	private String name;
+	private String tel;
+	private String address;
+	private String personalNumber;
+
+	
+
+	public Person(String name, String tel, String address, String personalNumber) throws InvalidNameExeption {
+		this.setName(name);
+		this.tel = tel;
+		this.address = address;
+		this.personalNumber = personalNumber;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) throws InvalidNameExeption {
+		if (name != null & (name.length() > 10)) {
+			this.name = name;
+		} else {
+			throw new InvalidNameExeption("The name must be full name");
+		}
+	}
+
+	public void setCity(String address) throws InvalidCityException {
+		if (address != null){
+			this.address = address;
+		} else {
+			throw new InvalidCityException("The city myst be one of the folowing: S, VT, V, R, P");
+		}
+
+	}
+}

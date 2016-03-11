@@ -1,0 +1,28 @@
+package exam;
+
+import java.time.LocalDateTime;
+
+public class Mail {
+	
+	private ObsluzvanClient receiver;
+	private ObsluzvanClient sender;
+	private String sudurzanie;
+	private LocalDateTime date;
+	private Employee courier;
+	
+	private static int systemNumberCounter = 0;
+	private int systemNumber;
+
+	public Mail(ObsluzvanClient receiver, ObsluzvanClient sender, String sudurzanie, LocalDateTime date,
+			Employee courier) {
+		this.receiver = receiver;
+		this.sender = sender;
+		this.sudurzanie = sudurzanie;
+		this.date = date;
+		systemNumberCounter++;
+		this.systemNumber = systemNumberCounter; 
+	}
+	
+	
+
+}

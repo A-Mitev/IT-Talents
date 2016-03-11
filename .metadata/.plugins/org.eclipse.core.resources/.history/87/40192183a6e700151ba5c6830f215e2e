@@ -1,0 +1,9 @@
+package exam;
+
+public class ObsluzvanClient {
+
+	public ObsluzvanClient() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

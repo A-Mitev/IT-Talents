@@ -1,0 +1,22 @@
+package exam;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class TestDbConnection  {
+
+	public void addEmployee(Person Person) throws SQLException {
+		Connection conn = DBConnection.getInstance().getConnection();
+		PreparedStatement prepStatement = conn.prepareStatement("insert into exam.Employees Values (null, ?, ?,?,?)");
+		try {
+			prepStatement.setString(1, Person.getName());
+			prepStatement.setString(2, Person.getTel());
+			prepStatement.setString(3, Person.getAddress());
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

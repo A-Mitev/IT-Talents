@@ -1,0 +1,15 @@
+package exam;
+
+import java.sql.SQLException;
+
+import exceptions.InvalidCityException;
+import exceptions.InvalidNameExeption;
+
+public class Demo {
+
+	public static void main(String[] args) throws SQLException, InvalidNameExeption, InvalidCityException {
+		
+		
+
+}
+}
