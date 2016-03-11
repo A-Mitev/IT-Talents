@@ -11,3 +11,4 @@
 1457708645531	Extract constant 'INSERT_INTO_PERSON'
 1457715034205	Rename type 'Location'
 1457716220841	Rename field 'sstemNumber'
+1457726118785	Extract constant 'INSERT_INTO_EMPLOYEES_VALUES'

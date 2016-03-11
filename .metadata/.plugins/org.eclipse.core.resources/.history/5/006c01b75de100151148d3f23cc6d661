@@ -1,9 +1,0 @@
-package tast1_1Bank;
-
-public class Deposit {
-
-	public Deposit() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -1,9 +1,0 @@
-package tast1_1Bank;
-
-public interface IClient {
-	
-	
-	void makeDeposit(double money, BankProduct deposit);
-	void getCredit(double money, BankProduct credit);
-	void payBankInterest();
-}
