@@ -1,0 +1,67 @@
+package exam;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.naming.spi.DirStateFactory.Result;
+
+// zasega moze samo da dobavq person i da go chete... to be continued ...
+public class TestDbConnection  {
+
+	private static final String INSERT_INTO_EMPLOYEES_VALUES = "Insert into employees Values (null, ?)";
+	private static final String INSERT_INTO_PERSON = "INSERT INTO person VALUES (null,?,?,?,?)";
+
+	public void addEmployee(Person person) throws SQLException {
+		Connection conn = DBConnection.getInstance().getConnection();
+		PreparedStatement prepStatement = conn.prepareStatement(INSERT_INTO_PERSON, Statement.RETURN_GENERATED_KEYS);
+		
+		try {
+			prepStatement.setString(1, person.getName());
+			prepStatement.setString(2, person.getTel());
+			prepStatement.setObject(3, person.getAddress().ordinal()+1);
+			prepStatement.setString(4, person.getPersonalNumber());
+			prepStatement.executeUpdate();
+			
+			// ne uspqvam da go nakaram da vzeme primary_id-to i da gosetne za personal_data v employees_id
+			ResultSet rs = prepStatement.getGeneratedKeys();
+			rs.next();
+			int employeeId = rs.getInt(1);
+			PreparedStatement employeeUpdate = conn.prepareStatement(INSERT_INTO_EMPLOYEES_VALUES);
+			employeeUpdate.setInt(1, employeeId);
+			employeeUpdate.executeQuery();
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	public void getEmployee(String name)  {
+		Connection conn = DBConnection.getInstance().getConnection();
+		try {
+			Statement zaqvka = conn.createStatement();
+			ResultSet rs = zaqvka.executeQuery("select p.person_id, p.Name, p.Tel, c.city_name, p.PersonalNumber from examdb.person p join city c on c.city_id = p.city_id");
+			while(rs.next()){
+				int id  = rs.getInt("person_id");
+				String name1 = rs.getString("Name");
+				String tel = rs.getString("tel");
+				String city = rs.getString("city_name"); 
+				String idNumber = rs.getString("PersonalNumber"); 
+		        
+
+		         //Display values
+		         System.out.print("ID: " + id);
+		         System.out.print(", Name: " + name1);
+		         System.out.print(", Tel: " + tel);
+		         System.out.println(", City: " + city);
+		         System.out.println(", Personal Number: " + idNumber);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}
