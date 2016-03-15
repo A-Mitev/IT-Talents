@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="MusicInstrumentsHomework.Instrument"/>
-<fullyQualifiedTypeName name="MusicInstrumentsHomework.MusicShop"/>
-<fullyQualifiedTypeName name="java.util.stream.IntStream"/>
-<fullyQualifiedTypeName name="java.lang.management.PlatformLoggingMXBean"/>
-<fullyQualifiedTypeName name="javax.swing.text.PlainDocument"/>
-<fullyQualifiedTypeName name="MusicInstrumentsHomework.InstrumentComparator"/>
-<fullyQualifiedTypeName name="MusicInstrumentsHomework.InstrumentNameComparator"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.sql.Array"/>
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
@@ -40,7 +33,6 @@
 <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.EnumSet"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="Test3Tests.City"/>
 <fullyQualifiedTypeName name="Test3Tests.Client"/>
 <fullyQualifiedTypeName name="exceptions.InvalidCityException"/>
@@ -53,11 +45,19 @@
 <fullyQualifiedTypeName name="exam.Location"/>
 <fullyQualifiedTypeName name="exam.OrdinaryOffice"/>
 <fullyQualifiedTypeName name="exam.ObsluzvanClient"/>
-<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="exam.Employee"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
 <fullyQualifiedTypeName name="exam.Protocol"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
 </qualifiedTypeNameHistroy>
