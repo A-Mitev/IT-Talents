@@ -1,0 +1,16 @@
+package ClassTask;
+
+import java.io.File;
+
+public class Task1 {
+	public static void main(String[] args) {
+		
+		File dir = new File("iotest");
+		if(dir.isDirectory()){
+			System.out.println("Ima q nqma da suzdavam");
+		} else {
+			dir.mkdir();
+		}
+	}
+
+}

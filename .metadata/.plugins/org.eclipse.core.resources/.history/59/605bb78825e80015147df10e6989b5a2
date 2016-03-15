@@ -1,0 +1,13 @@
+package filesTesting;
+
+import java.io.File;
+
+public class FilesDemo {
+	
+	public static void main(String[] args) {
+		
+		File file = new File("TestsFolder\file.txt");
+		
+	}
+
+}
