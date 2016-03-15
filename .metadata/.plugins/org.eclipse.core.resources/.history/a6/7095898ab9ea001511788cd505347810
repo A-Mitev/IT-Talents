@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.Arrays;
 
 public class NewTests {
 	public static void main(String[] args) throws IOException {
@@ -36,8 +35,7 @@ public class NewTests {
 //			}
 			
 			byte[] letters = new byte[(int) reading.length()];
-			input.read(letters);
-			System.out.println(new String(letters));
+			System.out.println(letters);
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

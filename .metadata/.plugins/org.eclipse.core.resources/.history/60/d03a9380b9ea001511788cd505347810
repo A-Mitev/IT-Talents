@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.Arrays;
 
 public class NewTests {
 	public static void main(String[] args) throws IOException {
@@ -21,24 +20,21 @@ public class NewTests {
 		}
 		String text = "testvam da addna text v file";
 		try (PrintWriter add = new PrintWriter(reading);) {
+
 			add.write(text);
 		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
 		try {
 			InputStream input = new FileInputStream(reading);
-//			int b = input.read();
+			int b = input.read();
 
-//			while (b != -1) {
-//				System.out.print((char) b);
-//				b = input.read();
-//			}
-			
-			byte[] letters = new byte[(int) reading.length()];
-			input.read(letters);
-			System.out.println(new String(letters));
-			
+			while (b != -1) {
+				System.out.print((char) b);
+				b = input.read();
+			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
