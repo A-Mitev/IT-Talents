@@ -2472,3 +2472,35 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: only whites
 2016-03-20 12:08:08,724 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2016-03-20 12:08:08,733 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-03-20 12:08:08,746 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.1Servlets_Tests\src\test\resources
+2016-03-20 12:18:46,953 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:18:46,984 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-20 12:18:46,988 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:18:47,086 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.1Servlets_Tests\src\test\resources
+2016-03-20 12:18:48,251 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:18:48,259 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-20 12:18:48,266 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:18:48,273 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-20 12:18:48,426 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:18:48,444 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\It_Tallents\Season 5\Java EE Course Group 1\Emag\Emag\Emag\Emag\src\main\resources
+2016-03-20 12:18:48,446 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:18:48,459 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\It_Tallents\Season 5\Java EE Course Group 1\Emag\Emag\Emag\Emag\src\test\resources
+2016-03-20 12:18:48,919 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:18:48,925 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\It_Tallents\Season 5\Java EE Course Group 1\23.Lecture - Sessions and cookies\MyThirdProject\MyThirdProject\src\main\resources
+2016-03-20 12:18:48,926 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:18:48,931 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\It_Tallents\Season 5\Java EE Course Group 1\23.Lecture - Sessions and cookies\MyThirdProject\MyThirdProject\src\test\resources
+2016-03-20 12:21:16,464 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents:27.1Servlets_Tests:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\27.1Servlets_Tests\pom.xml.
+2016-03-20 12:21:17,304 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/servlet-api/6.0.45/servlet-api-6.0.45.pom
+2016-03-20 12:21:17,386 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/servlet-api/6.0.45/servlet-api-6.0.45.pom
+2016-03-20 12:21:17,550 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/servlet-api/6.0.45/servlet-api-6.0.45.jar
+2016-03-20 12:21:17,894 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/servlet-api/6.0.45/servlet-api-6.0.45.jar
+2016-03-20 12:21:19,128 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:21:19,169 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-20 12:21:19,185 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:21:19,220 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.1Servlets_Tests\src\test\resources
+2016-03-20 12:21:19,221 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 27.1Servlets_Tests
+2016-03-20 12:21:19,222 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 27.1Servlets_Tests
+2016-03-20 12:21:19,233 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:21:20,412 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:21:20,427 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-20 12:21:20,429 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-20 12:21:20,442 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.1Servlets_Tests\src\test\resources
