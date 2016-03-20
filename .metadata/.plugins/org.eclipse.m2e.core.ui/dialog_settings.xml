@@ -70,6 +70,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="27.2TestingServlets"/>
 			<item value="MyThirdProject"/>
 			<item value="TestServlets"/>
 			<item value="27.Servlets_HTTP"/>
@@ -78,6 +79,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="27.2TestingServlets"/>
 			<item value="MyThirdProject"/>
 			<item value="TestServlets"/>
 			<item value="27.Servlets_HTTP"/>
@@ -89,6 +91,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets"/>
 			<item value="C:\Users\Asus\Documents\GitHub\IT-Talents\22.JDBC"/>
 			<item value="C:\Users\Asus\Documents\GitHub\IT-Talents\26.XML,JSon,Others"/>
 			<item value="C:\Users\Asus\Documents\GitHub\IT-Talents\Tests"/>
@@ -104,6 +107,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="bg.ittalents.ServletsTesting"/>
 			<item value="bg.ittalents.Servlets_Tests"/>
 			<item value="bg.ittalents.Servlets"/>
 		</list>
@@ -111,6 +115,7 @@
 			<item value="bg.ittalents"/>
 		</list>
 		<list key="artifactId">
+			<item value="27.1ServletsTesting"/>
 			<item value="27.1Servlets_Tests"/>
 			<item value="Servlets"/>
 		</list>
