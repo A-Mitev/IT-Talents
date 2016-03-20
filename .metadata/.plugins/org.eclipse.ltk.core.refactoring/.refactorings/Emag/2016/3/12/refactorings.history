@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public void userExist(String username) throws SQLException &apos; from &apos;servlet.LoginServlet.doPost()&apos; to &apos;servlet.LoginServlet&apos;&#x0D;&#x0A;- Original project: &apos;Emag&apos;&#x0D;&#x0A;- Method name: &apos;userExist&apos;&#x0D;&#x0A;- Destination type: &apos;servlet.LoginServlet&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;userExist&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;servlet{LoginServlet.java" name="userExist" replace="false" selection="941 381" stamp="1458288536475" version="1.0" visibility="1"/>
+</session>

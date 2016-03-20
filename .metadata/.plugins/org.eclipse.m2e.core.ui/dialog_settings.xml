@@ -89,6 +89,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Asus\Documents\GitHub\IT-Talents\22.JDBC"/>
 			<item value="C:\Users\Asus\Documents\GitHub\IT-Talents\26.XML,JSon,Others"/>
 			<item value="C:\Users\Asus\Documents\GitHub\IT-Talents\Tests"/>
 		</list>
@@ -103,12 +104,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="bg.ittalents.Servlets_Tests"/>
 			<item value="bg.ittalents.Servlets"/>
 		</list>
 		<list key="groupId">
 			<item value="bg.ittalents"/>
 		</list>
 		<list key="artifactId">
+			<item value="27.1Servlets_Tests"/>
 			<item value="Servlets"/>
 		</list>
 		<list key="projectNameTemplate">

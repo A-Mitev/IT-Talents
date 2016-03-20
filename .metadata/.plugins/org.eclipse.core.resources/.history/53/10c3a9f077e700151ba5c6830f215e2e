@@ -1,5 +1,0 @@
-package exam;
-
-public enum City {
-		Sofia, Plovdiv, Varna, Veliko_Tarnovo, Ruse
-}
