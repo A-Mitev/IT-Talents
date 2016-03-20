@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;27.2TestingServlets/WebContent/img/Crystal_Project_success.png&apos; to &apos;success.png&apos;" description="Rename resource &apos;Crystal_Project_success.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/img/Crystal_Project_success.png" name="success.png" stamp="1458478032311" updateReferences="true"/>
+</session>

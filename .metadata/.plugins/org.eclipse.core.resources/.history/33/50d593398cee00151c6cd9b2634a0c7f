@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome!</title>
+</head>
+<body>
+
+	<form action="home" method="get">
+		<label>enter username:</label>
+		<input type="text" name="user"/>
+		<br/>
+		<label>enter password:</label>	
+		<input type="text" name="pass"/>
+		<br/>
+		<input type="submit" value="logging">
+	</form>
+
+</body>
+</html>
