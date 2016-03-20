@@ -1,0 +1,5 @@
+package bg.ittalents.dao;
+
+public class DBConnectionDao {
+
+}
