@@ -1,0 +1,48 @@
+package bg.ittalents.servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import bg.ittalents.dao.Dolphin;
+import bg.ittalents.dao.DolphinDAO;
+
+/**
+ * Servlet implementation class DolphinServlet
+ */
+@WebServlet("./index")
+public class DolphinServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		PrintWriter pw = response.getWriter();
+		List<Dolphin> dolphins = new DolphinDAO().getAll();
+		
+		pw.println("<html> <body>");
+		
+		pw.println("<table style='border: 1px solid black;'>");
+		
+		for (Dolphin d : dolphins) {
+			pw.print("<tr>");
+			
+			pw.println("<td style='border: 1px solid black;border-collapse:collapse;'> " + d.getName() + "</td>");
+			pw.println("<td style='border: 1px solid black;border-collapse:collapse;'> " + d.getColor() + "</td>");
+			
+			pw.print("</tr>");
+		}
+		pw.println("</table>");
+		pw.println("</body> </html>");
+	}
+
+
+
+}
