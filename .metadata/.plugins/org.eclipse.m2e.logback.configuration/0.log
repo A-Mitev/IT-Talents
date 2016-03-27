@@ -4147,3 +4147,680 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: only whites
 2016-03-26 16:13:55,575 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2016-03-26 16:13:55,576 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-03-26 16:13:55,584 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 16:15:04,049 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents:Sessions:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\Sessions\pom.xml.
+2016-03-26 16:15:04,335 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sessions/src/main/java
+2016-03-26 16:15:04,338 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sessions/src/main/resources
+2016-03-26 16:15:04,338 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sessions/src/test/java
+2016-03-26 16:15:04,339 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sessions/src/test/resources
+2016-03-26 16:15:04,758 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:15:04,774 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-26 16:15:04,777 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:15:04,783 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-26 16:15:16,252 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents:Sessions:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\pom.xml.
+2016-03-26 16:15:16,300 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:15:16,307 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-26 16:15:16,310 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:15:16,314 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-26 16:16:41,807 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:16:41,821 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 16:16:41,822 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:16:41,828 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 16:19:25,096 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:19:25,101 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-26 16:19:25,105 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:19:25,111 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-26 16:20:40,631 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 28.Sessions:28.Sessions:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\pom.xml.
+2016-03-26 16:20:41,725 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28.Sessions/src
+2016-03-26 16:20:41,726 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /28.Sessions/src/test/java because it overlaps with /28.Sessions/src
+2016-03-26 16:20:42,417 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-03-26 16:20:42,975 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 28.Sessions:28.Sessions:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\pom.xml.
+2016-03-26 16:20:43,566 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28.Sessions/src
+2016-03-26 16:20:43,580 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /28.Sessions/src/test/java because it overlaps with /28.Sessions/src
+2016-03-26 16:20:43,838 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for 28.Sessions
+2016-03-26 16:20:43,863 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-03-26 16:20:44,074 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:20:44,110 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 16:20:44,111 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:20:44,122 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 16:20:44,123 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 28.Sessions
+2016-03-26 16:20:44,123 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 28.Sessions
+2016-03-26 16:20:44,133 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:51,552 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents.daotest:TestovProectDao:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\pom.xml.
+2016-03-26 16:34:51,552 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents.daotest:TestovProectDao:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\pom.xml.
+2016-03-26 16:34:52,768 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:52,776 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\main\resources
+2016-03-26 16:34:52,778 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:52,784 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\test\resources
+2016-03-26 16:34:53,276 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents.daotest:TestovProectDao:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\pom.xml.
+2016-03-26 16:34:54,782 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 27.2TestingServlets:27.2TestingServlets:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\pom.xml.
+2016-03-26 16:34:54,782 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 27.2TestingServlets:27.2TestingServlets:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\pom.xml.
+2016-03-26 16:34:56,333 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:56,339 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 16:34:56,341 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:56,348 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 16:34:56,756 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents:Servlets:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\pom.xml.
+2016-03-26 16:34:57,463 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:57,474 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-26 16:34:57,486 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:57,491 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 16:34:57,665 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 28.Sessions:28.Sessions:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\pom.xml.
+2016-03-26 16:34:57,771 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:57,780 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 16:34:57,781 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:34:57,786 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 16:34:58,532 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents.daotest:TestovProectDao:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\pom.xml.
+2016-03-26 16:34:58,792 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 27.2TestingServlets:27.2TestingServlets:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\pom.xml.
+2016-03-26 16:34:58,893 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: bg.ittalents:Servlets:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\pom.xml.
+2016-03-26 16:34:58,966 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 28.Sessions:28.Sessions:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\pom.xml.
+2016-03-26 16:35:00,578 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:35:00,587 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\main\resources
+2016-03-26 16:35:00,593 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:35:00,601 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\test\resources
+2016-03-26 16:35:00,623 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:35:00,630 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 16:35:00,631 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:35:00,635 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 16:35:00,663 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:35:00,669 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-03-26 16:35:00,671 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:35:00,675 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 16:35:00,698 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:35:00,704 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 16:35:00,705 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 16:35:00,710 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 17:56:34,700 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 17:56:34,725 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 17:56:34,727 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 17:56:34,741 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:00:27,724 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:00:27,735 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:00:27,736 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:00:27,743 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:01:28,714 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:01:28,726 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:01:28,731 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:01:28,741 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:03:53,350 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:03:53,381 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:03:53,387 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:03:53,396 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:04:11,180 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:04:11,189 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:04:11,194 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:04:11,204 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:05:33,112 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:05:33,120 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:05:33,126 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:05:33,135 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:05:50,901 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:05:50,911 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:05:50,915 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:05:50,921 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:07:24,967 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:07:24,973 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:07:24,976 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:07:24,983 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:09:05,825 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:09:05,835 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:09:05,841 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:09:05,850 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:09:27,035 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:09:27,047 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:09:27,058 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:09:27,071 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:09:40,530 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:09:40,539 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:09:40,544 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:09:40,553 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:10:23,957 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:10:23,971 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:10:23,976 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:10:23,986 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:11:09,643 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:11:09,651 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 18:11:09,653 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:11:09,658 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 18:11:10,923 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:11:10,978 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-26 18:11:10,987 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:11:10,998 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 18:11:11,695 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:11:11,702 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:11:11,703 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:11:11,708 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:13:01,241 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:13:01,251 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:13:01,252 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:13:01,264 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:14:13,179 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:14:13,184 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:14:13,185 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:14:13,189 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:15:41,143 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:15:41,151 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 18:15:41,152 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:15:41,156 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 18:15:43,334 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:15:43,348 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-26 18:15:43,359 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:15:43,368 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 18:15:44,295 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:15:44,300 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:15:44,301 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:15:44,305 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:17:37,314 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:17:37,353 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:17:37,355 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:17:37,363 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:18:03,555 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:18:03,569 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:18:03,571 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:18:03,575 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:18:15,057 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:18:15,066 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:18:15,071 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:18:15,077 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:25:18,353 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:25:18,382 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:25:18,384 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:25:18,417 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:30:17,310 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:30:17,321 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:30:17,331 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:30:17,337 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:30:30,643 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:30:30,658 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:30:30,659 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:30:30,665 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:30:58,745 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:30:58,757 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:30:58,763 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:30:58,770 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:31:24,781 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:31:24,788 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:31:24,790 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:31:24,797 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:31:35,108 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:31:35,116 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:31:35,122 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:31:35,127 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:31:53,584 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:31:53,591 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:31:53,592 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:31:53,598 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:32:14,355 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:32:14,364 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:32:14,369 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:32:14,374 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:36:07,890 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:07,897 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:36:07,899 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:07,903 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:36:42,900 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:42,911 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\main\resources
+2016-03-26 18:36:42,913 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:42,920 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\test\resources
+2016-03-26 18:36:43,590 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:43,601 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 18:36:43,603 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:43,610 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 18:36:44,411 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:44,422 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-26 18:36:44,429 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:44,434 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 18:36:44,963 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:44,970 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:36:44,971 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:36:44,977 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:37:15,162 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:37:15,169 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:37:15,170 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:37:15,189 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:37:54,266 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:37:54,282 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:37:54,288 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:37:54,297 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:37:57,128 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:37:57,139 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:37:57,141 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:37:57,150 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:38:24,179 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:38:24,202 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:38:24,211 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:38:24,215 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:38:33,438 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:38:33,461 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:38:33,464 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:38:33,470 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:38:43,019 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:38:43,032 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:38:43,039 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:38:43,045 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:38:57,560 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:38:57,572 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:38:57,573 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:38:57,581 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:39:10,873 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:39:10,897 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:39:10,905 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:39:10,910 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:39:22,924 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:39:22,931 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:39:22,933 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:39:22,939 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:39:41,153 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:39:41,164 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:39:41,170 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:39:41,176 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:39:52,472 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:39:52,477 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:39:52,479 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:39:52,485 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:40:06,454 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:40:06,466 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:40:06,477 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:40:06,483 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:40:29,177 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:40:29,213 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:40:29,214 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:40:29,219 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:41:52,004 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:41:52,011 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:41:52,015 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:41:52,018 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:42:14,700 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:42:14,708 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:42:14,709 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:42:14,715 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:42:31,219 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:42:31,229 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:42:31,233 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:42:31,238 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:42:42,489 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:42:42,503 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:42:42,506 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:42:42,514 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:44:07,893 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:44:07,900 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:44:07,904 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:44:07,908 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:47:59,426 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:47:59,435 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\main\resources
+2016-03-26 18:47:59,437 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:47:59,440 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\test\resources
+2016-03-26 18:48:00,404 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:00,408 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 18:48:00,410 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:00,414 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 18:48:01,986 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:01,998 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-26 18:48:02,005 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:02,010 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 18:48:02,951 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:02,958 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:48:02,959 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:02,966 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:48:23,823 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:23,832 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:48:23,834 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:23,840 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:48:38,824 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:38,832 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:48:38,837 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:48:38,841 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:52:11,590 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:52:11,595 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:52:11,596 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:52:11,601 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:52:20,586 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:52:20,597 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:52:20,605 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:52:20,614 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:53:44,837 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:53:44,844 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:53:44,897 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:53:44,910 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:54:50,931 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:54:50,941 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:54:50,946 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:54:50,951 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:54:58,952 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:54:58,970 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:54:58,971 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:54:58,977 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:55:35,950 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:55:35,962 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:55:35,967 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:55:35,972 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:56:17,316 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:56:17,324 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:56:17,325 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:56:17,328 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:56:38,578 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:56:38,586 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:56:38,589 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:56:38,593 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:57:05,350 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:57:05,354 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:57:05,355 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:57:05,358 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 18:57:15,465 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:57:15,471 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 18:57:15,475 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 18:57:15,479 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 19:01:03,875 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:01:03,879 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 19:01:03,881 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:01:03,885 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 19:01:11,654 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:01:11,667 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 19:01:11,673 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:01:11,680 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 19:12:36,666 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:12:36,672 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 19:12:36,675 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:12:36,678 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 19:12:37,570 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:12:37,585 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-26 19:12:37,592 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:12:37,598 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 19:12:38,461 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:12:38,469 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 19:12:38,470 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 19:12:38,477 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:34:40,116 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:34:40,127 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:34:40,130 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:34:40,136 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:35:54,129 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:35:54,142 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:35:54,143 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:35:54,149 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:36:28,468 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:36:28,473 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:36:28,474 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:36:28,478 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:38:42,623 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:38:42,638 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:38:42,640 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:38:42,649 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:40:45,888 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:40:45,893 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:40:45,894 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:40:45,898 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:43:55,086 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:43:55,093 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:43:55,096 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:43:55,100 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:44:29,778 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:44:29,783 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:44:29,785 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:44:29,790 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:47:20,542 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:47:20,548 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:47:20,552 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:47:20,556 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:48:12,564 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:48:12,567 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:48:12,568 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:48:12,573 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:51:36,933 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:51:36,942 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:51:36,946 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:51:36,950 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:52:12,703 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:52:12,710 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:52:12,711 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:52:12,716 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:52:36,422 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:52:36,435 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\main\resources
+2016-03-26 21:52:36,443 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:52:36,451 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.Sessions\src\test\resources
+2016-03-26 21:58:05,053 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:58:05,062 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\main\resources
+2016-03-26 21:58:05,064 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:58:05,069 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\23.TestovProectDao\src\test\resources
+2016-03-26 21:58:05,848 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:58:05,855 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-26 21:58:05,859 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:58:05,869 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-26 21:58:07,225 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:58:07,252 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-26 21:58:07,267 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:58:07,273 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-26 21:58:42,945 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 28.SessionTests:28.SessionTests:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\pom.xml.
+2016-03-26 21:58:43,389 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28.SessionTests/src
+2016-03-26 21:58:43,390 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /28.SessionTests/src/test/java because it overlaps with /28.SessionTests/src
+2016-03-26 21:58:44,072 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-03-26 21:58:44,549 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 28.SessionTests:28.SessionTests:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\pom.xml.
+2016-03-26 21:58:44,739 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28.SessionTests/src
+2016-03-26 21:58:44,740 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /28.SessionTests/src/test/java because it overlaps with /28.SessionTests/src
+2016-03-26 21:58:45,020 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for 28.SessionTests
+2016-03-26 21:58:45,109 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-03-26 21:58:45,307 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:58:45,368 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 21:58:45,369 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:58:45,377 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 21:58:45,377 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 28.SessionTests
+2016-03-26 21:58:45,378 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 28.SessionTests
+2016-03-26 21:58:45,416 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:59:05,885 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:59:05,918 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 21:59:05,919 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 21:59:05,931 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:01:52,906 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:01:52,923 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:01:52,932 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:01:52,940 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:02:04,284 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:02:04,299 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:02:04,300 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:02:04,318 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:02:16,085 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:02:16,093 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:02:16,098 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:02:16,103 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:02:27,105 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:02:27,113 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:02:27,117 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:02:27,125 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:02:38,825 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:02:38,844 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:02:38,851 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:02:38,858 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:03:13,543 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:03:13,551 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:03:13,554 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:03:13,565 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:03:44,841 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:03:44,850 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:03:44,856 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:03:44,864 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:05:32,921 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:05:32,925 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:05:32,926 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:05:32,931 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:06:13,942 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:06:13,951 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:06:13,957 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:06:13,961 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:08:00,691 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:08:00,696 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:08:00,698 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:08:00,701 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:09:46,818 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:09:46,827 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:09:46,833 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:09:46,840 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:10:10,605 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:10:10,610 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:10:10,611 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:10:10,617 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:15:41,943 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:15:41,952 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:15:41,957 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:15:41,963 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:15:54,425 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:15:54,430 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:15:54,431 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:15:54,436 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:21:26,360 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:21:26,367 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:21:26,373 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:21:26,377 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:39:38,257 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:39:38,261 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:39:38,262 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:39:38,267 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:43:15,404 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:43:15,411 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:43:15,415 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:43:15,419 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:43:46,741 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:43:46,746 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:43:46,747 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:43:46,751 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:47:21,195 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:47:21,204 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:47:21,208 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:47:21,212 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-26 22:47:34,814 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:47:34,821 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-26 22:47:34,822 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-26 22:47:34,826 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:41:32,164 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:41:32,174 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\main\resources
+2016-03-27 12:41:32,176 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:41:32,180 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.2TestingServlets\src\test\resources
+2016-03-27 12:41:34,535 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:41:34,559 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-03-27 12:41:34,568 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:41:34,577 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\27.Servlets\src\test\resources
+2016-03-27 12:41:35,454 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:41:35,458 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:41:35,459 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:41:35,463 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:47:32,435 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 28.SessionTests:28.SessionTests:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\pom.xml.
+2016-03-27 12:47:32,719 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28.SessionTests/src
+2016-03-27 12:47:32,724 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /28.SessionTests/src/test/java because it overlaps with /28.SessionTests/src
+2016-03-27 12:47:33,322 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-03-27 12:47:33,996 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 28.SessionTests:28.SessionTests:0.0.1-SNAPSHOT @ C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\pom.xml.
+2016-03-27 12:47:34,189 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28.SessionTests/src
+2016-03-27 12:47:34,191 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /28.SessionTests/src/test/java because it overlaps with /28.SessionTests/src
+2016-03-27 12:47:34,443 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for 28.SessionTests
+2016-03-27 12:47:34,461 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-03-27 12:47:34,692 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:47:34,763 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:47:34,767 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:47:34,789 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:47:34,789 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 28.SessionTests
+2016-03-27 12:47:34,790 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 28.SessionTests
+2016-03-27 12:47:34,815 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:49:30,271 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:49:30,300 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:49:30,301 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:49:30,315 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:53:17,242 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:53:17,249 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:53:17,253 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:53:17,262 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:53:30,838 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:53:30,847 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:53:30,850 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:53:30,859 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:53:56,529 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:53:56,538 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:53:56,548 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:53:56,574 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:54:02,469 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:54:02,473 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:54:02,475 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:54:02,479 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:54:30,794 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:54:30,810 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:54:30,814 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:54:30,820 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:56:39,402 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:56:39,405 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:56:39,406 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:56:39,410 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:57:06,058 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:57:06,068 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:57:06,072 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:57:06,077 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:58:08,352 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:58:08,364 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:58:08,365 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:58:08,372 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 12:58:29,022 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:58:29,039 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 12:58:29,046 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 12:58:29,051 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:00:22,458 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:00:22,468 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:00:22,470 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:00:22,476 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:01:37,253 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:01:37,262 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:01:37,269 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:01:37,274 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:02:09,128 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:02:09,135 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:02:09,136 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:02:09,141 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:02:50,652 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:02:50,657 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:02:50,660 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:02:50,664 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:03:50,554 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:03:50,562 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:03:50,564 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:03:50,569 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:07:00,500 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:07:00,513 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:07:00,525 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:07:00,536 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:11:16,449 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:11:16,457 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:11:16,458 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:11:16,463 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:12:29,158 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:12:29,166 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:12:29,171 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:12:29,176 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:14:33,730 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:14:33,736 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:14:33,737 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:14:33,743 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:15:38,676 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:15:38,696 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:15:38,705 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:15:38,709 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:20:35,619 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:20:35,624 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:20:35,625 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:20:35,629 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:22:03,247 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:22:03,253 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:22:03,258 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:22:03,262 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:22:11,136 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:22:11,148 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:22:11,150 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:22:11,156 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:32:31,495 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:32:31,503 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:32:31,508 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:32:31,515 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:33:32,656 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:33:32,664 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:33:32,665 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:33:32,670 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:35:09,246 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:35:09,254 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:35:09,259 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:35:09,263 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources
+2016-03-27 13:36:19,269 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:36:19,274 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\main\resources
+2016-03-27 13:36:19,274 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-27 13:36:19,279 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Asus\Documents\GitHub\IT-Talents\28.SessionTests\src\test\resources

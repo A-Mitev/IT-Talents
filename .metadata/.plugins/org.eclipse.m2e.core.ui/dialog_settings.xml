@@ -70,6 +70,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="28.SessionTests"/>
 			<item value="27.2TestingServlets"/>
 			<item value="MyThirdProject"/>
 			<item value="TestServlets"/>
@@ -79,6 +80,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="28.SessionTests"/>
 			<item value="27.2TestingServlets"/>
 			<item value="MyThirdProject"/>
 			<item value="TestServlets"/>

@@ -6,7 +6,9 @@
   <module moduleId="org.eclipse.jst.jee.server:27.TestServlets" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Emag" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:28.DolphinsProject" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:28.Sessions" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:27.1Servlets_Tests" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:MyThirdProject" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:27.Servlets" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:28.SessionTests" serverId="Tomcat v8.0 Server at localhost"/>
 </modules>
